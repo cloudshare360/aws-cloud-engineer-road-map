@@ -31,7 +31,7 @@ readme.md (Root Index)
 
 ## Usage
 
-- **Start here**: [Root README](../readme.md)
+- **Start here**: [Landing Page](./index.html)
 - **For learners**: Start with [04-quick-start-guide.md](./04-quick-start-guide.md), then follow [03-learning-path.md](./03-learning-path.md)
 - **For employers**: Review [01-role-description.md](./01-role-description.md) and [06-three-party-engagement.md](./06-three-party-engagement.md)
 - **For vendors**: Reference [07-staff-augmentation-proposal.md](./07-staff-augmentation-proposal.md) and [06-three-party-engagement.md](./06-three-party-engagement.md)
