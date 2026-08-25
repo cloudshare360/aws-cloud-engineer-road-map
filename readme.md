@@ -8,11 +8,21 @@ This program places a **mid-level AWS Cloud Engineer with 6 years of experience*
 
 ## Who Should Read What
 
-| Reader | Start Here | Then Read |
-|--------|-----------|-----------|
-| **Employer / Client** | [01-role-description.md](./docs/01-role-description.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) → [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) | [02-roadmap.md](./docs/02-roadmap.md), [03-learning-path.md](./docs/03-learning-path.md) |
-| **Associate / Engineer** | [04-quick-start-guide.md](./docs/04-quick-start-guide.md) → [03-learning-path.md](./docs/03-learning-path.md) → [02-roadmap.md](./docs/02-roadmap.md) | [05-resources.md](./docs/05-resources.md) |
-| **Vendor / Training Company** | [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) | [01-role-description.md](./docs/01-role-description.md), [03-learning-path.md](./docs/03-learning-path.md) |
+| Reader | Sequence | Document |
+|--------|----------|----------|
+| **Employer / Client** | Start Here | [01-role-description.md](./docs/01-role-description.md) |
+| **Employer / Client** | Start Here | [06-three-party-engagement.md](./docs/06-three-party-engagement.md) |
+| **Employer / Client** | Start Here | [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) |
+| **Employer / Client** | Then Read | [02-roadmap.md](./docs/02-roadmap.md) |
+| **Employer / Client** | Then Read | [03-learning-path.md](./docs/03-learning-path.md) |
+| **Associate / Engineer** | Start Here | [04-quick-start-guide.md](./docs/04-quick-start-guide.md) |
+| **Associate / Engineer** | Start Here | [03-learning-path.md](./docs/03-learning-path.md) |
+| **Associate / Engineer** | Start Here | [02-roadmap.md](./docs/02-roadmap.md) |
+| **Associate / Engineer** | Then Read | [05-resources.md](./docs/05-resources.md) |
+| **Vendor / Training Company** | Start Here | [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) |
+| **Vendor / Training Company** | Start Here | [06-three-party-engagement.md](./docs/06-three-party-engagement.md) |
+| **Vendor / Training Company** | Then Read | [01-role-description.md](./docs/01-role-description.md) |
+| **Vendor / Training Company** | Then Read | [03-learning-path.md](./docs/03-learning-path.md) |
 
 ---
 
@@ -23,7 +33,9 @@ The associate follows a structured **20-week learning roadmap**, progressing fro
 | Timeline | Focus Area | Key Technologies |
 |----------|------------|-----------------|
 | Weeks 1-4 | Backend Development Foundations | JavaScript, TypeScript, Node.js, Express.js, REST APIs, Python |
-| Weeks 5-8 | Testing Fundamentals & Portfolio Marketing | Jest, Chai, Mocha, Sinon, backend marketing |
+| Weeks 5-6 | Testing Fundamentals | Jest, Chai, Mocha, Sinon |
+| Weeks 5-8 | Portfolio Marketing (ongoing) | GitHub, LinkedIn, open source, personal branding |
+| Weeks 7-8 | Frontend Technologies | Angular, Karma, ReactJS |
 | Weeks 9-12 | Hands-on AWS Services | Lambda, API Gateway, DynamoDB, SNS, SQS, SES, Step Functions, S3, RDS, OpenSearch, Athena, AppSync, EC2, Docker, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray |
 | Weeks 13-14 | Infrastructure as Code | AWS CDK, CloudFormation, Terraform |
 | Weeks 15-16 | CI/CD & DevOps | GitLab, GitHub, Jenkins |
