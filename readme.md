@@ -8,17 +8,11 @@ This program places a **mid-level AWS Cloud Engineer with 6 years of experience*
 
 ## Who Should Read What
 
-**Employer / Client**
-- Start here: [01-role-description.md](./docs/01-role-description.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) → [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md)
-- Then read: [02-roadmap.md](./docs/02-roadmap.md), [03-learning-path.md](./docs/03-learning-path.md)
-
-**Associate / Engineer**
-- Start here: [04-quick-start-guide.md](./docs/04-quick-start-guide.md) → [03-learning-path.md](./docs/03-learning-path.md) → [02-roadmap.md](./docs/02-roadmap.md)
-- Then read: [05-resources.md](./docs/05-resources.md)
-
-**Vendor / Training Company**
-- Start here: [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md)
-- Then read: [01-role-description.md](./docs/01-role-description.md), [03-learning-path.md](./docs/03-learning-path.md)
+| Reader | Start Here | Then Read |
+|--------|-----------|-----------|
+| **Employer / Client** | [01-role-description.md](./docs/01-role-description.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) → [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) | [02-roadmap.md](./docs/02-roadmap.md), [03-learning-path.md](./docs/03-learning-path.md) |
+| **Associate / Engineer** | [04-quick-start-guide.md](./docs/04-quick-start-guide.md) → [03-learning-path.md](./docs/03-learning-path.md) → [02-roadmap.md](./docs/02-roadmap.md) | [05-resources.md](./docs/05-resources.md) |
+| **Vendor / Training Company** | [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) | [01-role-description.md](./docs/01-role-description.md), [03-learning-path.md](./docs/03-learning-path.md) |
 
 ---
 
@@ -26,14 +20,14 @@ This program places a **mid-level AWS Cloud Engineer with 6 years of experience*
 
 The associate follows a structured **20-week learning roadmap**, progressing from backend foundations to advanced AWS services and fullstack development:
 
-| Timeline | Focus Area |
-|----------|------------|
-| Weeks 1-4 | Backend Development Foundations (JavaScript, TypeScript, Node.js, Express.js, REST APIs, Python) |
-| Weeks 5-8 | Testing Fundamentals & Portfolio Marketing (Jest, Chai, Mocha, Sinon, backend marketing) |
-| Weeks 9-12 | Hands-on AWS Services (Lambda, API Gateway, DynamoDB, SNS, SQS, SES, Step Functions, S3, RDS, OpenSearch, Athena, AppSync, EC2, Docker, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray) |
-| Weeks 13-14 | Infrastructure as Code (AWS CDK, CloudFormation, Terraform) |
-| Weeks 15-16 | CI/CD & DevOps (GitLab, GitHub, Jenkins) |
-| Weeks 17-20 | Angular Development (Core + Advanced) or React/Next.js (client-driven) |
+| Timeline | Focus Area | Key Technologies |
+|----------|------------|-----------------|
+| Weeks 1-4 | Backend Development Foundations | JavaScript, TypeScript, Node.js, Express.js, REST APIs, Python |
+| Weeks 5-8 | Testing Fundamentals & Portfolio Marketing | Jest, Chai, Mocha, Sinon, backend marketing |
+| Weeks 9-12 | Hands-on AWS Services | Lambda, API Gateway, DynamoDB, SNS, SQS, SES, Step Functions, S3, RDS, OpenSearch, Athena, AppSync, EC2, Docker, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray |
+| Weeks 13-14 | Infrastructure as Code | AWS CDK, CloudFormation, Terraform |
+| Weeks 15-16 | CI/CD & DevOps | GitLab, GitHub, Jenkins |
+| Weeks 17-20 | Angular Development or React/Next.js | Angular Core + Advanced or React/Next.js (client-driven) |
 
 ---
 
@@ -77,9 +71,11 @@ All detailed documentation is organized in the `docs/` folder. Each document bui
 
 ## Key Highlights
 
-- **Experience Level**: Mid-level developer with 6 years of professional experience
-- **Engagement Type**: Committed, full-time role with long-term growth path
-- **Support Model**: Technical expert layer for architectural guidance, code reviews, and gap remediation
-- **Training**: Structured 20-week learning roadmap with weekly milestones
-- **Delivery**: Backend-first, then AWS services, then frontend based on client needs
-- **Tools**: Node.js, Express.js, Python, Angular/React, AWS CDK, Terraform, GitLab/GitHub/Jenkins
+| Attribute | Details |
+|-----------|---------|
+| **Experience Level** | Mid-level developer with 6 years of professional experience |
+| **Engagement Type** | Committed, full-time role with long-term growth path |
+| **Support Model** | Technical expert layer for architectural guidance, code reviews, and gap remediation |
+| **Training** | Structured 20-week learning roadmap with weekly milestones |
+| **Delivery** | Backend-first, then AWS services, then frontend based on client needs |
+| **Tools** | Node.js, Express.js, Python, Angular/React, AWS CDK, Terraform, GitLab/GitHub/Jenkins |
