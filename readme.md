@@ -8,11 +8,17 @@ This program places a **mid-level AWS Cloud Engineer with 6 years of experience*
 
 ## Who Should Read What
 
-| Reader | Start Here | Then Read |
-|--------|-----------|-----------|
-| **Employer / Client** | [01-role-description.md](./docs/01-role-description.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) → [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) | [02-roadmap.md](./docs/02-roadmap.md), [03-learning-path.md](./docs/03-learning-path.md) |
-| **Associate / Engineer** | [04-quick-start-guide.md](./docs/04-quick-start-guide.md) → [03-learning-path.md](./docs/03-learning-path.md) → [02-roadmap.md](./docs/02-roadmap.md) | [05-resources.md](./docs/05-resources.md) |
-| **Vendor / Training Company** | [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) | [01-role-description.md](./docs/01-role-description.md), [03-learning-path.md](./docs/03-learning-path.md) |
+**Employer / Client**
+- Start here: [01-role-description.md](./docs/01-role-description.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md) → [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md)
+- Then read: [02-roadmap.md](./docs/02-roadmap.md), [03-learning-path.md](./docs/03-learning-path.md)
+
+**Associate / Engineer**
+- Start here: [04-quick-start-guide.md](./docs/04-quick-start-guide.md) → [03-learning-path.md](./docs/03-learning-path.md) → [02-roadmap.md](./docs/02-roadmap.md)
+- Then read: [05-resources.md](./docs/05-resources.md)
+
+**Vendor / Training Company**
+- Start here: [07-staff-augmentation-proposal.md](./docs/07-staff-augmentation-proposal.md) → [06-three-party-engagement.md](./docs/06-three-party-engagement.md)
+- Then read: [01-role-description.md](./docs/01-role-description.md), [03-learning-path.md](./docs/03-learning-path.md)
 
 ---
 
