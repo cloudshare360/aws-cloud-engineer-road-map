@@ -3,16 +3,33 @@
   "image": "mcr.microsoft.com/devcontainers/javascript-node:lts",
   "features": {
     "ghcr.io/devcontainers/features/github-cli:1": {},
-    "ghcr.io/devcontainers/features/git:1": {}
+    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/java:1": {},
+    "ghcr.io/devcontainers/features/python:1": {},
+    "ghcr.io/devcontainers/features/aws-cli:1": {},
+    "ghcr.io/devcontainers/features/common-utils:1": {}
   },
-  "postCreateCommand": "node --version && npm --version",
+  "postCreateCommand": "node --version && npm --version && python --version && pip --version && java -version && aws --version && npm install -g @kilo-ai/cli && npm install -g opencode-ai",
   "customizations": {
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
-        "ms-azuretools.vscode-docker"
-      ]
+        "ms-azuretools.vscode-docker",
+        "kilo-org.kilo-code"
+      ],
+      "settings": {
+        "kilo.enabled": true,
+        "kilo.autoStart": true,
+        "kilo.defaultModel": "kilo/kilo-auto/free",
+        "kilo.mode": "code",
+        "kilo.skills.enabled": true,
+        "kilo.memory.enabled": true,
+        "kilo.tasks.enabled": true,
+        "kilo.contextMenu.enabled": true,
+        "kilo.inlineSuggest.enabled": true,
+        "kilo.chat.enabled": true
+      }
     }
   }
 }

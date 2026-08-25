@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "mode": "code",
+  "enabled": true,
+  "autoStart": true,
+  "defaultModel": "kilo/kilo-auto/free",
+  "skills": {
+    "enabled": true,
+    "paths": [".kilo/skills"]
+  },
+  "memory": {
+    "enabled": true,
+    "paths": [".kilo/memory"]
+  },
+  "tasks": {
+    "enabled": true,
+    "paths": [".kilo/tasks"]
+  },
+  "contextMenu": {
+    "enabled": true
+  },
+  "inlineSuggest": {
+    "enabled": true
+  },
+  "chat": {
+    "enabled": true
+  },
+  "providers": {
+    "preferLocal": true
+  }
+}
