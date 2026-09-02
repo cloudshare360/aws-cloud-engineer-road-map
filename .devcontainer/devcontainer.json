@@ -9,7 +9,7 @@
     "ghcr.io/devcontainers/features/aws-cli:1": {},
     "ghcr.io/devcontainers/features/common-utils:1": {}
   },
-  "postCreateCommand": "node --version && npm --version && python --version && pip --version && java -version && aws --version && npm install -g @kilo-ai/cli && npm install -g opencode-ai",
+  "postCreateCommand": "node --version && npm --version && python --version && pip --version && java -version && aws --version && npm install -g @kilocode/cli && kilo --version",
   "customizations": {
     "vscode": {
       "extensions": [
