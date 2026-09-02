@@ -127,3 +127,51 @@ Update AGENTS.md, skills, or memory based on project changes.
 - [ ] Skills are up-to-date
 - [ ] Memory is current
 - [ ] All agent files are consistent
+
+---
+
+## Task: Create Node.js Learning Document
+
+### Description
+Create a new Node.js learning document in the `aws-cloud-engineer/node-js/` folder following the established format.
+
+### Steps
+1. Determine the next sequential number (NN) by checking existing files in `aws-cloud-engineer/node-js/`
+2. Create `aws-cloud-engineer/node-js/NN-topic-name.md` with the document format:
+   - Overview, Topics Covered, Content Sections, Hands-on Exercises, Knowledge Check, Next Steps
+3. Add "Continue To" section at the end linking to related documents
+4. Update `aws-cloud-engineer/node-js/README.md` to include the new document
+5. Update `aws-cloud-engineer/node-js/pending-tasks.md` to mark item as completed
+6. Commit with message: `docs: add NN-topic-name.md`
+
+### Validation
+- [ ] File follows naming convention `NN-topic-name.md`
+- [ ] Document follows the learning path format template
+- [ ] Code examples are valid JavaScript
+- [ ] Exercises include solutions
+- [ ] Knowledge check has 4-5 questions
+- [ ] "Continue To" section added
+- [ ] All cross-references updated
+- [ ] README.md updated
+- [ ] pending-tasks.md updated
+
+---
+
+## Task: Update Existing Node.js Document
+
+### Description
+Update an existing Node.js learning document with new content, corrections, or improvements.
+
+### Steps
+1. Read the target document in `aws-cloud-engineer/node-js/`
+2. Make content updates while maintaining format consistency
+3. Check the corresponding Phase number in README.md
+4. Update any references in related documents
+5. If adding new resources, update programiz-reference.md
+6. Commit with message: `docs: update NN-topic-name.md`
+
+### Validation
+- [ ] Changes maintain document format
+- [ ] No broken links introduced
+- [ ] Content aligns with roadmap and learning path
+- [ ] programiz-reference.md updated if needed

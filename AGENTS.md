@@ -12,25 +12,43 @@ This file provides instructions for AI coding agents (GitHub Copilot, Kilo Code,
 
 ```
 .
-├── AGENTS.md                      # This file — AI agent instructions
-├── readme.md                      # Root index for stakeholders
+├── AGENTS.md                      # AI agent instructions
+├── readme.md                     # Root index for stakeholders
 ├── docs/
-│   ├── index.html                 # GitHub Pages landing page
-│   ├── README.md                  # Documentation index
-│   ├── .nojekyll                  # Disable Jekyll for GitHub Pages
-│   ├── 01-role-description.md     # Role responsibilities & expectations
-│   ├── 02-roadmap.md              # 20-week learning roadmap
-│   ├── 03-learning-path.md        # Week-by-week curriculum
-│   ├── 04-quick-start-guide.md    # Daily routine & success metrics
-│   ├── 05-resources.md            # Tools, resources, best practices
+│   ├── index.html                # GitHub Pages landing page
+│   ├── README.md                 # Documentation index
+│   ├── .nojekyll                 # Disable Jekyll for GitHub Pages
+│   ├── 01-role-description.md    # Role responsibilities & expectations
+│   ├── 02-roadmap.md             # 20-week learning roadmap
+│   ├── 03-learning-path.md       # Week-by-week curriculum
+│   ├── 04-quick-start-guide.md   # Daily routine & success metrics
+│   ├── 05-resources.md           # Tools, resources, best practices
 │   ├── 06-three-party-engagement.md # Employer-Vendor-Associate model
 │   └── 07-staff-augmentation-proposal.md # Executive proposal
 ├── .kilo/
-│   ├── skills/                    # Agent skills (SKILL.md files)
-│   ├── memory/                    # Agent memory bank
-│   └── tasks/                     # Agent task definitions
-└── .github/
-    └── workflows/                 # GitHub Actions workflows
+│   ├── skills/                   # Agent skills (SKILL.md files)
+│   │   ├── aws-cloud-engineer-roadmap/
+│   │   │   └── SKILL.md          # Roadmap-specific agent guidance
+│   │   └── nodejs-development/
+│   │       └── SKILL.md          # Node.js development guidance
+│   ├── memory/                   # Agent memory bank
+│   │   └── project-memory.md     # Current project state and decisions
+│   ├── tasks/                    # Agent task definitions
+│   │   └── tasks.md              # Predefined task workflows
+│   └── kilo.json                 # Kilo CLI configuration
+├── .devcontainer/
+│   └── devcontainer.json         # Codespaces configuration
+├── .github/
+│   └── workflows/
+│       └── pages.yml             # GitHub Pages deployment workflow
+├── aws-services/                 # 79 AWS service directories
+├── aws-cloud-engineer/
+│   └── node-js/                  # Node.js zero-to-production learning path
+├── aws-developer/                # Developer role resources
+├── aws-serverless/               # Serverless engineering resources
+├── node-js/                      # Frontend/backend folder
+├── angular/                      # Frontend/backend folder
+└── react/                        # Frontend/backend folder
 ```
 
 ## Tech Stack
