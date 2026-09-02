@@ -39,21 +39,21 @@
 ├── .github/workflows/    # Pages deployment
 └── aws-cloud-engineer/
     ├── node-js/          # Learning path (6 docs)
-    ├── aws-services/     # 82 AWS services organized by domain
-    │   ├── analytics/
-    │   ├── application-integration/
-    │   ├── compute/
-    │   ├── containers/
-    │   ├── database/
-    │   ├── developer-tools/
-    │   ├── iot/
-    │   ├── machine-learning/
-    │   ├── management-governance/
-    │   ├── migration-transfer/
-    │   ├── networking-content-delivery/
-    │   ├── security-identity-compliance/
+    ├── aws-services/     # 82 services across 14 domains
+    │   ├── analytics/          # athena, datapipeline, emr, glue, kinesis, opensearch, etc.
+    │   ├── application-integration/  # api-gateway, appsync, sns, sqs, ses, stepfunction
+    │   ├── compute/            # ec2, lambda
+    │   ├── containers/         # ecr, ecs, eks, appmesh
+    │   ├── database/           # dynamodb, rds, documentdb, neptune, elasticache, etc.
+    │   ├── developer-tools/    # cloud9, cloudformation, codebuild, codecommit, etc.
+    │   ├── iot/                # iot-core, iot-analytics, iot-device-defender
+    │   ├── machine-learning/   # sagemaker, bedrock, rekognition, polly, etc.
+    │   ├── management-governance/  # cloudwatch, config, systems-manager, trustedadvisor
+    │   ├── migration-transfer/  # dms, migration-hub, transfer-family, etc.
+    │   ├── networking-content-delivery/  # cloudfront, route53, vpc, elb, etc.
+    │   ├── security-identity-compliance/  # iam, cognito, guardduty, kms, etc.
     │   ├── serverless-application-repository/
-    │   └── storage/
+    │   └── storage/            # s3
     ├── angular/
     ├── dev-ops/
     │   ├── ci-cd/        # GitLab, GitHub Actions, Jenkins

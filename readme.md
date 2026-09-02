@@ -106,19 +106,100 @@ The associate is embedded in the employer's team as a full member, with technica
     │   └── iac/                     # CloudFormation, CDK, Terraform, OpenTofu
     └── aws-services/                # 82 AWS services organized by domain
         ├── analytics/
+        │   ├── athena
+        │   ├── datapipeline
+        │   ├── emr
+        │   ├── glue
+        │   ├── kinesis
+        │   ├── kinesis-data-analytics
+        │   ├── kinesis-firehose
+        │   ├── kinesis-video-streams
+        │   ├── opensearch
+        │   ├── quicksight
+        │   └── timestream
         ├── application-integration/
+        │   ├── api-gateway
+        │   ├── appsync
+        │   ├── eventbridge
+        │   ├── mq
+        │   ├── ses
+        │   ├── sns
+        │   ├── sqs
+        │   └── stepfunction
         ├── compute/
+        │   ├── ec2
+        │   └── lambda
         ├── containers/
+        │   ├── appmesh
+        │   ├── ecr
+        │   ├── ecs
+        │   └── eks
         ├── database/
+        │   ├── documentdb
+        │   ├── dynamodb
+        │   ├── elasticache
+        │   ├── keyspaces
+        │   ├── neptune
+        │   ├── rds
+        │   └── redshift
         ├── developer-tools/
+        │   ├── cloud9
+        │   ├── cloudformation
+        │   ├── cloudshell
+        │   ├── codebuild
+        │   ├── codecommit
+        │   ├── codedeploy
+        │   └── codepipeline
         ├── iot/
+        │   ├── iot-analytics
+        │   ├── iot-core
+        │   └── iot-device-defender
         ├── machine-learning/
+        │   ├── bedrock
+        │   ├── comprehend
+        │   ├── forecast
+        │   ├── lookout
+        │   ├── polly
+        │   ├── rekognition
+        │   ├── sagemaker
+        │   ├── textract
+        │   ├── transcribe
+        │   └── translate
         ├── management-governance/
+        │   ├── cloudwatch
+        │   ├── config
+        │   ├── systems-manager
+        │   └── trustedadvisor
         ├── migration-transfer/
+        │   ├── application-discovery-service
+        │   ├── database-migration-service
+        │   ├── migration-hub
+        │   ├── server-migration-service
+        │   └── transfer-family
         ├── networking-content-delivery/
+        │   ├── acm
+        │   ├── cloud-map
+        │   ├── cloudfront
+        │   ├── direct-connect
+        │   ├── elb
+        │   ├── global-accelerator
+        │   ├── route53
+        │   └── vpc
         ├── security-identity-compliance/
+        │   ├── cloudtrail
+        │   ├── cognito
+        │   ├── guardduty
+        │   ├── iam
+        │   ├── inspector
+        │   ├── kms
+        │   ├── organizations
+        │   ├── secrets-manager
+        │   ├── shield
+        │   ├── vpn-cloudhsm
+        │   └── waf
         ├── serverless-application-repository/
         └── storage/
+            └── s3
 ```
 
 ---

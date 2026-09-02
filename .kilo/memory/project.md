@@ -32,20 +32,20 @@ Documentation repo + static site (GitHub Pages) + learning materials
 │   │   ├── ci-cd/               # GitLab, GitHub Actions, Jenkins
 │   │   └── iac/                 # CloudFormation, CDK, Terraform, OpenTofu
 │   └── aws-services/            # 82 AWS services organized by domain
-│       ├── analytics/
-│       ├── application-integration/
-│       ├── compute/
-│       ├── containers/
-│       ├── database/
-│       ├── developer-tools/
-│       ├── iot/
-│       ├── machine-learning/
-│       ├── management-governance/
-│       ├── migration-transfer/
-│       ├── networking-content-delivery/
-│       ├── security-identity-compliance/
+│       ├── analytics/             # athena, datapipeline, emr, glue, kinesis, opensearch, timestream, etc.
+│       ├── application-integration/  # api-gateway, appsync, sns, sqs, ses, stepfunction, etc.
+│       ├── compute/               # ec2, lambda
+│       ├── containers/            # ecr, ecs, eks, appmesh
+│       ├── database/              # dynamodb, rds, documentdb, neptune, elasticache, etc.
+│       ├── developer-tools/       # cloud9, cloudformation, codebuild, codecommit, etc.
+│       ├── iot/                   # iot-core, iot-analytics, iot-device-defender
+│       ├── machine-learning/      # sagemaker, bedrock, rekognition, polly, etc.
+│       ├── management-governance/ # cloudwatch, config, systems-manager, trustedadvisor
+│       ├── migration-transfer/    # dms, migration-hub, transfer-family, etc.
+│       ├── networking-content-delivery/  # cloudfront, route53, vpc, elb, etc.
+│       ├── security-identity-compliance/  # iam, cognito, guardduty, kms, etc.
 │       ├── serverless-application-repository/
-│       └── storage/
+│       └── storage/               # s3
 ```
 
 ## Conventions
