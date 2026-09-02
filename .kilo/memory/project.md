@@ -22,12 +22,15 @@ Documentation repo + static site (GitHub Pages) + learning materials
 ├── readme.md                    # Root index
 ├── docs/                        # GitHub Pages (01-07*.md + index.html + README.md)
 ├── .kilo/                       # Agent config (skills, memory, tasks, kilo.json)
-├── .devcontainer/               # Codespaces config
-├── .github/workflows/pages.yml  # Pages deployment
-├── aws-services/                # 79 service dirs
-├── aws-cloud-engineer/node-js/  # Node.js learning path
-├── aws-developer/ aws-serverless/ # Role folders
-├── node-js/ angular/ react/     # Frontend/backend folders
+├── .devcontainer/devcontainer.json
+├── .github/workflows/pages.yml
+├── aws-cloud-engineer/
+│   ├── node-js/                 # Node.js learning path
+│   ├── angular/                 # Frontend resources
+│   ├── react/                   # Frontend resources
+│   ├── aws-developer/           # Developer role resources
+│   ├── aws-serverless/          # Serverless resources
+│   └── aws-services/            # 79 service dirs
 ```
 
 ## Conventions
