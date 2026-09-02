@@ -18,11 +18,11 @@
 
 ## Repository Structure
 - **Decision**: Create `aws-cloud-engineer/node-js/` for Node.js learning path
-- **Decision**: Create `aws-developer/`, `aws-serverless/`, `aws-cloud-engineer/` role folders
-- **Decision**: Create `aws-cloud-engineer/aws-services/` with 79 AWS service subdirectories
-- **Decision**: Move `aws-developer/` and `aws-serverless/` under `aws-cloud-engineer/` (role combination)
+- **Decision**: Create `aws-cloud-engineer/` as role root (combines dev, serverless, DevOps)
+- **Decision**: Create `aws-cloud-engineer/aws-services/` with 79 AWS service subdirs
+- **Decision**: Remove `aws-developer/` and `aws-serverless/` folders (subsumed by aws-cloud-engineer/)
 - **Decision**: Remove duplicate root-level `angular/`, `node-js/`, `react/` directories
-- **Decision**: Create `node-js/`, `angular/`, `react/` as general folders
+- **Decision**: Create `aws-cloud-engineer/angular/`, `aws-cloud-engineer/react/` folders
 
 ## Kilo AI Configuration
 - **Decision**: Enable Kilo AI extension and CLI in devcontainer

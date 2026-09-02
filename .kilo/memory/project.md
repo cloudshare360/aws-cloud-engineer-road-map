@@ -28,8 +28,6 @@ Documentation repo + static site (GitHub Pages) + learning materials
 │   ├── node-js/                 # Node.js learning path
 │   ├── angular/                 # Frontend resources
 │   ├── react/                   # Frontend resources
-│   ├── aws-developer/           # Developer role resources
-│   ├── aws-serverless/          # Serverless resources
 │   └── aws-services/            # 79 service dirs
 ```
 
