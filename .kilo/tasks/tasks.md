@@ -1,177 +1,97 @@
 # Agent Tasks
 
-## Task: Create New Document
+## 1. Create New Document
+**Purpose**: Add numbered document to docs/
 
-### Description
-Create a new numbered document in the docs/ folder following established conventions.
+**Steps**:
+1. Find next NN number in `docs/`
+2. Create `docs/NN-document-name.md`
+3. Update `docs/README.md` and root `readme.md` indexes
+4. Add "Continue To" sections
+5. Commit: `[docs|chore]: add NN-document-name.md`
 
-### Steps
-1. Determine the next sequential number (NN) by checking existing files
-2. Create `docs/NN-document-name.md` with appropriate frontmatter and content
-3. Update `docs/README.md` to include the new document
-4. Update `readme.md` Document Index table
-5. Add "Continue To" section in adjacent documents
-6. Update `docs/index.html` if it's a primary document
-7. Commit with message: `docs: add NN-document-name.md`
+**Validation**: Naming convention, relative links, "Continue To" added, cross-references updated
 
-### Validation
-- [ ] File follows naming convention `NN-document-name.md`
-- [ ] Document is self-contained but links to related docs
-- [ ] "Continue To" section added
-- [ ] All cross-references updated
+## 2. Update Learning Path
+**Purpose**: Modify week/phase content in docs/03-learning-path.md
 
----
+**Steps**:
+1. Read 03-learning-path.md and 02-roadmap.md for context
+2. Update the relevant week/phase
+3. Ensure deliverables are measurable
+4. Update root readme.md timeline if changed
+5. Commit: `docs: update learning path`
 
-## Task: Update Learning Path
+**Validation**: Content aligns with roadmap, consistent deliverables, no broken links
 
-### Description
-Update the learning path content for a specific week or phase.
+## 3. Add AWS Service
+**Purpose**: Add new AWS service to curriculum
 
-### Steps
-1. Read `docs/03-learning-path.md` to understand current structure
-2. Read `docs/02-roadmap.md` to ensure alignment
-3. Make updates to the relevant week/phase
-4. Ensure deliverables are clear and measurable
-5. Update `readme.md` if timeline changes
-6. Commit with message: `docs: update learning path for Week NN`
+**Steps**:
+1. Add to appropriate phase in 02-roadmap.md
+2. Add coverage in 03-learning-path.md
+3. Add to 05-resources.md
+4. Update readme.md Training table
+5. Commit: `feat: add AWS <service>`
 
-### Validation
-- [ ] Content aligns with roadmap
-- [ ] Deliverables are specific and measurable
-- [ ] Cross-references are updated
-- [ ] No broken links
+**Validation**: Added to roadmap + learning path + resources
 
----
+## 4. Publish GitHub Pages
+**Purpose**: Deploy documentation to GitHub Pages
 
-## Task: Add New AWS Service
+**Steps**:
+1. Verify docs/index.html exists
+2. Verify docs/.nojekyll exists
+3. Verify .github/workflows/pages.yml exists
+4. Check relative paths in all links
+5. Commit + push to main
+6. Verify Pages settings (main, /docs)
 
-### Description
-Add a new AWS service to the curriculum and documentation.
+**Validation**: index.html valid, .nojekyll exists, workflow valid YAML, no 404s
 
-### Steps
-1. Add service to appropriate phase in `docs/02-roadmap.md`
-2. Add detailed coverage in `docs/03-learning-path.md`
-3. Add resources in `docs/05-resources.md`
-4. Update `readme.md` Training & Ramp-Up table if needed
-5. Update `docs/index.html` if needed
-6. Commit with message: `feat: add AWS <service> to curriculum`
+## 5. Review Documents
+**Purpose**: Audit all documents for consistency
 
-### Validation
-- [ ] Service added to roadmap
-- [ ] Learning content is detailed and practical
-- [ ] Resources are accurate and up-to-date
-- [ ] Cross-references updated
+**Steps**:
+1. Read all 7 numbered docs in order
+2. Check terminology, formatting, links
+3. Verify "Continue To" sections present
+4. Update outdated content
+5. Commit: `docs: review and update`
 
----
+**Validation**: Consistent terminology, valid links, complete sections
 
-## Task: Publish to GitHub Pages
+## 6. Update Agent Configuration
+**Purpose**: Sync agent config with project changes
 
-### Description
-Deploy documentation to GitHub Pages.
+**Steps**:
+1. Review AGENTS.md accuracy
+2. Update .kilo/skills/ if patterns changed
+3. Update .kilo/memory/ with recent changes
+4. Commit: `chore: update agent configuration`
 
-### Steps
-1. Ensure `docs/index.html` exists and is valid
-2. Ensure `docs/.nojekyll` exists
-3. Ensure `.github/workflows/pages.yml` exists
-4. Verify all internal links use relative paths
-5. Commit and push to main branch
-6. Verify GitHub Pages settings in repository
-7. Check deployment status in Actions tab
+**Validation**: AGENTS.md current, skills/memory up-to-date, consistent
 
-### Validation
-- [ ] `docs/index.html` is present and valid
-- [ ] `docs/.nojekyll` exists
-- [ ] Workflow file is valid YAML
-- [ ] Site is accessible at expected URL
-- [ ] No 404 errors in browser console
+## 7. Create Node.js Document
+**Purpose**: Add Node.js learning doc to aws-cloud-engineer/node-js/
 
----
+**Steps**:
+1. Find next NN number
+2. Create `NN-topic-name.md` with format: Overview → Topics → Content → Exercises → Knowledge Check → Next Steps → Resources
+3. Add "Continue To" section
+4. Update node-js/README.md and pending-tasks.md
+5. Commit: `docs: add NN-topic-name.md`
 
-## Task: Review and Update Documents
+**Validation**: Format follows template, code valid, exercises have solutions, 4-5 knowledge questions, links relative, cross-refs updated
 
-### Description
-Review all documents for consistency, accuracy, and completeness.
+## 8. Update Node.js Document
+**Purpose**: Modify existing Node.js learning document
 
-### Steps
-1. Read all 7 numbered documents in order
-2. Check for consistency in terminology and formatting
-3. Verify all internal links work correctly
-4. Check for broken references or outdated information
-5. Ensure "Continue To" sections are present
-6. Update any outdated content
-7. Commit with message: `docs: review and update documentation`
+**Steps**:
+1. Read target document
+2. Make updates maintaining format
+3. Check Phase alignment with README.md
+4. Update programiz-reference.md if adding resources
+5. Commit: `docs: update NN-topic-name.md`
 
-### Validation
-- [ ] All documents reviewed
-- [ ] Terminology is consistent
-- [ ] All links are valid
-- [ ] No outdated information
-- [ ] Formatting is consistent
-
----
-
-## Task: Update Agent Configuration
-
-### Description
-Update AGENTS.md, skills, or memory based on project changes.
-
-### Steps
-1. Review current `AGENTS.md` for accuracy
-2. Update project structure if files were added/removed
-3. Update skills in `.kilo/skills/` if new patterns emerged
-4. Update memory in `.kilo/memory/` with recent changes
-5. Commit with message: `chore: update agent configuration`
-
-### Validation
-- [ ] AGENTS.md reflects current project state
-- [ ] Skills are up-to-date
-- [ ] Memory is current
-- [ ] All agent files are consistent
-
----
-
-## Task: Create Node.js Learning Document
-
-### Description
-Create a new Node.js learning document in the `aws-cloud-engineer/node-js/` folder following the established format.
-
-### Steps
-1. Determine the next sequential number (NN) by checking existing files in `aws-cloud-engineer/node-js/`
-2. Create `aws-cloud-engineer/node-js/NN-topic-name.md` with the document format:
-   - Overview, Topics Covered, Content Sections, Hands-on Exercises, Knowledge Check, Next Steps
-3. Add "Continue To" section at the end linking to related documents
-4. Update `aws-cloud-engineer/node-js/README.md` to include the new document
-5. Update `aws-cloud-engineer/node-js/pending-tasks.md` to mark item as completed
-6. Commit with message: `docs: add NN-topic-name.md`
-
-### Validation
-- [ ] File follows naming convention `NN-topic-name.md`
-- [ ] Document follows the learning path format template
-- [ ] Code examples are valid JavaScript
-- [ ] Exercises include solutions
-- [ ] Knowledge check has 4-5 questions
-- [ ] "Continue To" section added
-- [ ] All cross-references updated
-- [ ] README.md updated
-- [ ] pending-tasks.md updated
-
----
-
-## Task: Update Existing Node.js Document
-
-### Description
-Update an existing Node.js learning document with new content, corrections, or improvements.
-
-### Steps
-1. Read the target document in `aws-cloud-engineer/node-js/`
-2. Make content updates while maintaining format consistency
-3. Check the corresponding Phase number in README.md
-4. Update any references in related documents
-5. If adding new resources, update programiz-reference.md
-6. Commit with message: `docs: update NN-topic-name.md`
-
-### Validation
-- [ ] Changes maintain document format
-- [ ] No broken links introduced
-- [ ] Content aligns with roadmap and learning path
-- [ ] programiz-reference.md updated if needed
+**Validation**: Format consistent, no broken links, content aligned, references updated

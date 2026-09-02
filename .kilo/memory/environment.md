@@ -1,108 +1,45 @@
 # Environment Commands
 
-## Build and Deploy
+## GitHub Pages
+- Deployed via `.github/workflows/pages.yml` (trigger: push to main, source: /docs)
+- Verify before push: `docs/index.html` exists, `docs/.nojekyll` exists, relative links valid
 
-### GitHub Pages
+## Devcontainer
+- VS Code: F1 → "Dev Containers: Reopen in Container"
+- GitHub Codespaces: create from main branch
+
+## Validation
+
 ```bash
-# GitHub Pages is deployed via GitHub Actions workflow
-# Workflow file: .github/workflows/pages.yml
-# Trigger: push to main branch
-# Source: /docs folder
-
-# Manual deployment check
-# 1. Verify docs/index.html exists
-# 2. Verify docs/.nojekyll exists
-# 3. Verify all internal links use relative paths
-# 4. Push to main branch
-# 5. Check Actions tab for deployment status
-```
-
-### Devcontainer
-```bash
-# Start devcontainer in VS Code
-# Press F1 → "Dev Containers: Reopen in Container"
-
-# Or use GitHub Codespaces
-# Create codespace from main branch
-```
-
-## Testing
-
-### Markdown Link Validation
-```bash
-# Check for broken internal links
-find docs/ -name "*.md" -o -name "*.html" | xargs grep -n "^\[" | grep -v "http"
-```
-
-### JSON Validation
-```bash
-# Validate JSON files
+# JSON
 python3 -c "import json; json.load(open('path/to/file.json'))"
-```
 
-### YAML Validation
-```bash
-# Validate YAML files
+# YAML
 python3 -c "import yaml; yaml.safe_load(open('path/to/file.yml'))"
 ```
 
-## Version Control
+## Git Workflow
 
-### Commit Convention
 ```bash
-# Feature
-git commit -m "feat: add new feature"
-
-# Fix
-git commit -m "fix: correct broken link"
-
-# Documentation
-git commit -m "docs: update documentation"
-
-# Chore
-git commit -m "chore: update configuration"
-```
-
-### Push to Remote
-```bash
+git add -A
+git commit -m "feat: |fix: |docs: |chore:"
 git push origin main
 ```
 
-## Common Development Paths
+## Paths
 
-### Documentation Editing
-- Root docs: `docs/` directory
-- Node.js learning: `aws-cloud-engineer/node-js/` directory
+| Type | Path |
+|------|------|
+| Root docs | `docs/` |
+| Node.js learning | `aws-cloud-engineer/node-js/` |
+| Agent skills | `.kilo/skills/` |
+| Agent memory | `.kilo/memory/` |
+| Agent tasks | `.kilo/tasks/` |
+| Devcontainer | `.devcontainer/devcontainer.json` |
+| Pages workflow | `.github/workflows/pages.yml` |
 
-### Agent Configuration
-- Skills: `.kilo/skills/`
-- Memory: `.kilo/memory/`
-- Tasks: `.kilo/tasks/`
+## Devcontainer Tools Installed
+Node.js LTS, Python 3, Java JDK, AWS CLI v2, npm, pip, git, GitHub CLI, Kilo Code (extension + CLI)
 
-### Devcontainer Configuration
-- Config: `.devcontainer/devcontainer.json`
-
-### GitHub Actions
-- Workflows: `.github/workflows/`
-
-## Tools Installed in Devcontainer
-
-### Runtime
-- Node.js LTS
-- Python 3
-- Java (JDK)
-- AWS CLI v2
-
-### Development Tools
-- npm (Node Package Manager)
-- pip (Python Package Installer)
-- git
-- GitHub CLI
-
-### AI Agents
-- Kilo Code VS Code extension
-- Kilo CLI (@kilocode/cli)
-
-## Environment Variables
-- `KILO_MODE=code`          # Default agent mode
-- `KILO_TELEMETRY=false`    # Disable telemetry (optional)
+## Env Variables
+`KILO_MODE=code`, `KILO_MODEL=kilo/kilo-auto/free`

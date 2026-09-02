@@ -1,33 +1,28 @@
 ---
 name: nodejs-development
-description: Guide for creating Node.js learning content in the aws-cloud-engineer/node-js/ folder. Use when creating or updating Node.js tutorials, exercises, projects, or reference materials for the zero-to-hero learning path.
+description: Guide for creating Node.js learning content in aws-cloud-engineer/node-js/. Use when creating or updating Node.js tutorials, exercises, projects, or reference materials.
 ---
 
 # Node.js Development Skill
 
-## When to Use This Skill
-
-Use this skill when:
-- Creating new Node.js learning documents
-- Updating existing Node.js tutorials
+## When to Use
+- Creating/updating Node.js learning documents
 - Adding exercises or projects
-- Creating reference materials for Node.js concepts
-- Working in the `aws-cloud-engineer/node-js/` directory
+- Working in `aws-cloud-engineer/node-js/`
 
-## Repository Structure
+## Folder Structure
 
 ```
 aws-cloud-engineer/node-js/
-├── README.md                           # Main index and learning path overview
-├── programiz-reference.md             # Cross-reference to Programiz JavaScript tutorials
-├── pending-tasks.md                    # Track remaining documents to create
-├── 01-variables-and-data-types.md      # Phase 1: JavaScript foundations
+├── README.md                           # Index & learning path overview
+├── programiz-reference.md             # Programiz JS tutorials mapping
+├── pending-tasks.md                    # Remaining documents
+├── 01-variables-and-data-types.md
 ├── 02-functions-and-scope.md
 ├── 03-arrays-and-objects.md
 ├── 04-async-await-promises.md
 ├── 05-es6-features.md
-├── 06-dom-manipulation.md             # (planned)
-├── 07-nodejs-introduction.md          # Phase 2: Node.js basics
+├── 07-nodejs-introduction.md
 ├── 08-npm-and-package-management.md   # (planned)
 ├── 09-file-system-module.md            # (planned)
 ├── 10-http-server.md                   # (planned)
@@ -43,72 +38,36 @@ aws-cloud-engineer/node-js/
 
 ## Document Format
 
-Each learning document should follow this structure:
-
-1. **Title** (`# Topic Name`)
-2. **Overview** - Brief description of what this document covers
-3. **Topics Covered** - List of subtopics
-4. **Content Sections** - Detailed explanations with code examples
-5. **Hands-on Exercises** - Practical exercises with solutions
-6. **Knowledge Check** - Review questions
-7. **Next Steps** - Links to subsequent documents
-8. **Additional Resources** - External links (Programiz, YouTube, etc.)
+1. `# Title`
+2. Overview
+3. Topics Covered
+4. Content sections with code examples
+5. Hands-on Exercises (with solutions)
+6. Knowledge Check (4-5 questions)
+7. Next Steps (links)
+8. Additional Resources
 
 ## Content Guidelines
 
-### Code Examples
-- Use JavaScript (compatible with Node.js LTS)
-- Include comments explaining key concepts
-- Show both synchronous and asynchronous approaches where relevant
-- Include error handling patterns
+- **Code**: JavaScript compatible with Node.js LTS, with comments
+- **Exercises**: Always include solutions, 2-3 per document
+- **References**: [Programiz JS](https://www.programiz.com/javascript), [Node.js Deep Dive](https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLxnjbfm5MCHFbRlyVCAqpJFdIzPN_IPID)
 
-### Exercises
-- Always provide solution code
-- Include 2-3 exercises per document
-- Vary difficulty levels
+## New Content Workflow
 
-### Knowledge Checks
-- Include 4-5 multiple-choice or short-answer questions
-- Answers should be derivable from the document content
-
-## Reference Resources
-
-### Primary References
-- [Programiz JavaScript Tutorials](https://www.programiz.com/javascript) — Map topics using `programiz-reference.md`
-- [Node.js Deep Dive Playlist](https://www.youtube.com/watch?v=pN6jk0uUrD8&list=PLxnjbfm5MCHFbRlyVCAqpJFdIzPN_IPID)
-
-### Quick Start Resources
-- [JavaScript Basics in 1 Hour - Mosh](https://www.youtube.com/watch?v=W6DUe7Pgp8A)
-- [Node.js Tutorial for Beginners - Mosh](https://www.youtube.com/watch?v=TlB2W5UPEWU)
-
-## Adding New Content
-
-### New Phase Document
-1. Follow numbering convention (NN-topic-name.md)
-2. Follow the document format template
-3. Add "Continue To" section linking to next related docs
-4. Update README.md with new document reference
-5. Update pending-tasks.md to mark completed item
-6. Commit with: `docs: add NN-topic-name.md`
-
-### New Exercise
-1. Create in `exercises/` folder if needed
-2. Reference the exercise in relevant learning documents
-3. Include clear problem statement and solution
-
-### New Project
-1. Create in `projects/` folder
-2. Reference the project in relevant phase
-3. Include project description, requirements, and solution outline
+1. Number document (NN-topic-name.md)
+2. Follow format template
+3. Add "Continue To" section
+4. Update README.md and pending-tasks.md
+5. Commit: `docs: add NN-topic-name.md`
 
 ## Validation Checklist
 
-Before finalizing any document:
-- [ ] Follows the document format template
-- [ ] Code examples are valid and runnable
-- [ ] Exercises include solutions
-- [ ] Knowledge check questions are answerable
-- [ ] Links use relative paths
-- [ ] Numbered correctly per the README roadmap
-- [ ] "Continue To" section added
-- [ ] Cross-references to programiz-reference.md updated if relevant
+- [ ] Follows format template
+- [ ] Code examples valid
+- [ ] Exercises have solutions
+- [ ] Knowledge check answerable
+- [ ] Relative paths
+- [ ] Correct numbering
+- [ ] "Continue To" added
+- [ ] programiz-reference.md updated if relevant
