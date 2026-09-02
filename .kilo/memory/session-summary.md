@@ -40,8 +40,6 @@
 └── aws-cloud-engineer/
     ├── node-js/          # Learning path (6 docs)
     ├── aws-services/     # 79 service dirs
-    ├── aws-developer/
-    ├── aws-serverless/
     ├── angular/
     └── react/
 ```
