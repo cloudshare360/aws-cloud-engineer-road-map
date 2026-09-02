@@ -39,7 +39,21 @@
 ├── .github/workflows/    # Pages deployment
 └── aws-cloud-engineer/
     ├── node-js/          # Learning path (6 docs)
-    ├── aws-services/     # 82 service dirs (acm, api-gateway, appmesh, appsync, athena, bedrock, cloud9, cloudformation, cloudfront, cloud-map, cloudshell, cloudtrail, cloudwatch, codebuild, codecommit, codedeploy, codepipeline, cognito, comprehend, config, database-migration-service, datapipeline, direct-connect, documentdb, dynamodb, ec2, ecr, ecs, eks, elasticache, elb, emr, eventbridge, forecast, global-accelerator, glue, guardduty, iam, inspector, iot-analytics, iot-core, iot-device-defender, keyspaces, kinesis, kinesis-data-analytics, kinesis-firehose, kinesis-video-streams, kms, lambda, lookout, migration-hub, mq, neptune, opensearch, organizations, polly, quicksight, rds, redshift, rekognition, route53, s3, sagemaker, secrets-manager, server-migration-service, serverless-application-repository, ses, shield, sns, sqs, stepfunction, systems-manager, textract, timestream, transcribe, transfer-family, translate, trustedadvisor, vpc, vpn-cloudhsm, waf)
+    ├── aws-services/     # 82 AWS services organized by domain
+    │   ├── analytics/
+    │   ├── application-integration/
+    │   ├── compute/
+    │   ├── containers/
+    │   ├── database/
+    │   ├── developer-tools/
+    │   ├── iot/
+    │   ├── machine-learning/
+    │   ├── management-governance/
+    │   ├── migration-transfer/
+    │   ├── networking-content-delivery/
+    │   ├── security-identity-compliance/
+    │   ├── serverless-application-repository/
+    │   └── storage/
     ├── angular/
     ├── dev-ops/
     │   ├── ci-cd/        # GitLab, GitHub Actions, Jenkins

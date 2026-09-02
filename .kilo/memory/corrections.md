@@ -19,7 +19,7 @@
 ## Repository Structure
 - **Decision**: Create `aws-cloud-engineer/node-js/` for Node.js learning path
 - **Decision**: Create `aws-cloud-engineer/` as role root (combines dev, serverless, DevOps)
-- **Decision**: Create `aws-cloud-engineer/aws-services/` with 79 AWS service subdirs
+- **Decision**: Create `aws-cloud-engineer/aws-services/` with 82 AWS service subdirs organized by domain (analytics, application-integration, compute, containers, database, developer-tools, iot, machine-learning, management-governance, migration-transfer, networking-content-delivery, security-identity-compliance, serverless-application-repository, storage)
 - **Decision**: Remove `aws-developer/` and `aws-serverless/` folders (subsumed by aws-cloud-engineer/)
 - **Decision**: Create `aws-cloud-engineer/dev-ops/` with `ci-cd/` (GitLab, GitHub Actions, Jenkins) and `iac/` (CloudFormation, CDK, Terraform, OpenTofu)
 - **Decision**: Create `aws-cloud-engineer/angular/`, `aws-cloud-engineer/react/` folders

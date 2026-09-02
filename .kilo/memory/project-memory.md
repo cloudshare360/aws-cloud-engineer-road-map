@@ -9,7 +9,7 @@
 - Pages: `/docs` folder on `main` branch, `index.html` entry point
 - Docs format: `NN-document-name.md` (01-07), case-sensitive
 - Agent system: Kilo Code with AGENTS.md, skills, memory, tasks
-- 79 AWS service dirs under `aws-cloud-engineer/aws-services/`
+- 82 AWS service dirs under `aws-cloud-engineer/aws-services/`, organized by domain
 - Frontend folders: `angular/`, `react/` under `aws-cloud-engineer/`
 - DevOps folders: `dev-ops/ci-cd/` (GitLab, GitHub Actions, Jenkins) and `dev-ops/iac/` (CloudFormation, CDK, Terraform, OpenTofu)
 - `aws-developer/` and `aws-serverless/` removed (subsumed by aws-cloud-engineer/)
