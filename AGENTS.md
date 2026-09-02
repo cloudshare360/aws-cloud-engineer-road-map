@@ -18,7 +18,7 @@ AWS Cloud Engineer Committed Role Program — 20-week training placing a mid-lev
 │   ├── dev-ops/                 # DevOps learning materials
 │   │   ├── ci-cd/               # GitLab, GitHub Actions, Jenkins
 │   │   └── iac/                 # CloudFormation, CDK, Terraform, OpenTofu
-│   └── aws-services/            # 79 AWS service dirs
+│   └── aws-services/            # 82 AWS service dirs
 ```
 
 ## Conventions

@@ -39,7 +39,7 @@
 ├── .github/workflows/    # Pages deployment
 └── aws-cloud-engineer/
     ├── node-js/          # Learning path (6 docs)
-    ├── aws-services/     # 79 service dirs
+    ├── aws-services/     # 82 service dirs (acm, api-gateway, appmesh, appsync, athena, bedrock, cloud9, cloudformation, cloudfront, cloud-map, cloudshell, cloudtrail, cloudwatch, codebuild, codecommit, codedeploy, codepipeline, cognito, comprehend, config, database-migration-service, datapipeline, direct-connect, documentdb, dynamodb, ec2, ecr, ecs, eks, elasticache, elb, emr, eventbridge, forecast, global-accelerator, glue, guardduty, iam, inspector, iot-analytics, iot-core, iot-device-defender, keyspaces, kinesis, kinesis-data-analytics, kinesis-firehose, kinesis-video-streams, kms, lambda, lookout, migration-hub, mq, neptune, opensearch, organizations, polly, quicksight, rds, redshift, rekognition, route53, s3, sagemaker, secrets-manager, server-migration-service, serverless-application-repository, ses, shield, sns, sqs, stepfunction, systems-manager, textract, timestream, transcribe, transfer-family, translate, trustedadvisor, vpc, vpn-cloudhsm, waf)
     ├── angular/
     ├── dev-ops/
     │   ├── ci-cd/        # GitLab, GitHub Actions, Jenkins
@@ -60,4 +60,7 @@
 - `5686f69` — Add dev-ops/iac and dev-ops/ci-cd folders
 - `2ea56dc` — Add ci-cd tools directories (gitlab, github-actions, jenkenis)
 - `061a9c9` — Add iac tool directories (cloudformation, cdk, terraform, open-tofu)
-- `f3b847b` — Update session summary with iac tools
+- `8fda47e` — Update session summary with iac tools
+- `f3b847b` — Sync agent configs and docs with new dev-ops structure
+- `0a0d451` — Rewrite root readme.md with full docs content, TOC, and repo structure
+- `ee4fed3` — Add AWS AppSync service directory

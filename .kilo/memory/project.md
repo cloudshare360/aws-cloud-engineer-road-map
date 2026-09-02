@@ -31,7 +31,7 @@ Documentation repo + static site (GitHub Pages) + learning materials
 │   ├── dev-ops/                 # DevOps learning materials
 │   │   ├── ci-cd/               # GitLab, GitHub Actions, Jenkins
 │   │   └── iac/                 # CloudFormation, CDK, Terraform, OpenTofu
-│   └── aws-services/            # 79 service dirs
+│   └── aws-services/            # 82 AWS service dirs
 ```
 
 ## Conventions
