@@ -40,10 +40,10 @@
 └── aws-cloud-engineer/
     ├── node-js/          # Learning path (6 docs)
     ├── aws-services/     # 79 service dirs
+    ├── angular/
     ├── dev-ops/
     │   ├── ci-cd/        # GitLab, GitHub Actions, Jenkins
-    │   └── iac/          # IaC tooling
-    ├── angular/
+    │   └── iac/          # CloudFormation, CDK, Terraform, OpenTofu
     └── react/
 ```
 
@@ -59,3 +59,5 @@
 - `c68bea6` — Update cross-references for folder consolidation
 - `5686f69` — Add dev-ops/iac and dev-ops/ci-cd folders
 - `2ea56dc` — Add ci-cd tools directories (gitlab, github-actions, jenkenis)
+- `061a9c9` — Add iac tool directories (cloudformation, cdk, terraform, open-tofu)
+- `f3b847b` — Update session summary with iac tools
