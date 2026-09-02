@@ -28,6 +28,9 @@ Documentation repo + static site (GitHub Pages) + learning materials
 │   ├── node-js/                 # Node.js learning path
 │   ├── angular/                 # Frontend resources
 │   ├── react/                   # Frontend resources
+│   ├── dev-ops/                 # DevOps learning materials
+│   │   ├── ci-cd/               # GitLab, GitHub Actions, Jenkins
+│   │   └── iac/                 # CloudFormation, CDK, Terraform, OpenTofu
 │   └── aws-services/            # 79 service dirs
 ```
 

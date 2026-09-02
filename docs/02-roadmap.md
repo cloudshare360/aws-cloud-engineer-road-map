@@ -8,11 +8,13 @@
 - REST API concepts
 - Python fundamentals
 
-## Phase 2: Testing Fundamentals & Marketing (Weeks 5-8)
+## Phase 2: Testing Fundamentals (Weeks 5-6)
 - Jest
 - Chai
 - Mocha
 - Sinon
+
+## Phase 2b: Portfolio Marketing (Weeks 5-8, ongoing)
 - Backend Node.js marketing & portfolio development
 
 ## Phase 3: Frontend Technologies (Weeks 7-8)
@@ -46,6 +48,7 @@
 - AWS CDK
 - CloudFormation
 - Terraform
+- OpenTofu
 
 ## Phase 6: CI/CD & DevOps (Weeks 15-16)
 - GitLab

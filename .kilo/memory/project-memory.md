@@ -11,8 +11,8 @@
 - Agent system: Kilo Code with AGENTS.md, skills, memory, tasks
 - 79 AWS service dirs under `aws-cloud-engineer/aws-services/`
 - Frontend folders: `angular/`, `react/` under `aws-cloud-engineer/`
+- DevOps folders: `dev-ops/ci-cd/` (GitLab, GitHub Actions, Jenkins) and `dev-ops/iac/` (CloudFormation, CDK, Terraform, OpenTofu)
 - `aws-developer/` and `aws-serverless/` removed (subsumed by aws-cloud-engineer/)
-- Role folders: `aws-developer/`, `aws-serverless/`, `aws-cloud-engineer/`
 - Node.js learning path in `aws-cloud-engineer/node-js/` (Phase 1-2 complete)
 - Fixed Phase 2 timeline overlap: Testing (Weeks 5-6) + Marketing (ongoing)
 

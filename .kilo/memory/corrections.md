@@ -21,8 +21,9 @@
 - **Decision**: Create `aws-cloud-engineer/` as role root (combines dev, serverless, DevOps)
 - **Decision**: Create `aws-cloud-engineer/aws-services/` with 79 AWS service subdirs
 - **Decision**: Remove `aws-developer/` and `aws-serverless/` folders (subsumed by aws-cloud-engineer/)
-- **Decision**: Remove duplicate root-level `angular/`, `node-js/`, `react/` directories
+- **Decision**: Create `aws-cloud-engineer/dev-ops/` with `ci-cd/` (GitLab, GitHub Actions, Jenkins) and `iac/` (CloudFormation, CDK, Terraform, OpenTofu)
 - **Decision**: Create `aws-cloud-engineer/angular/`, `aws-cloud-engineer/react/` folders
+- **Decision**: Split Phase 2 into Testing (Weeks 5-6) and Marketing (Weeks 5-8 ongoing)
 
 ## Kilo AI Configuration
 - **Decision**: Enable Kilo AI extension and CLI in devcontainer

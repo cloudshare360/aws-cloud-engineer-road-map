@@ -37,7 +37,7 @@ The associate follows a structured **20-week learning roadmap**, progressing fro
 | Weeks 5-8 | Portfolio Marketing (ongoing) | GitHub, LinkedIn, open source, personal branding |
 | Weeks 7-8 | Frontend Technologies | Angular, Karma, ReactJS |
 | Weeks 9-12 | Hands-on AWS Services | Lambda, API Gateway, DynamoDB, SNS, SQS, SES, Step Functions, S3, RDS, OpenSearch, Athena, AppSync, EC2, Docker, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray |
-| Weeks 13-14 | Infrastructure as Code | AWS CDK, CloudFormation, Terraform |
+| Weeks 13-14 | Infrastructure as Code | AWS CDK, CloudFormation, Terraform, OpenTofu |
 | Weeks 15-16 | CI/CD & DevOps | GitLab, GitHub, Jenkins |
 | Weeks 17-20 | Angular Development or React/Next.js | Angular Core + Advanced or React/Next.js (client-driven) |
 

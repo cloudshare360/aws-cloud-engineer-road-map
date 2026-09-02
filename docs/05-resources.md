@@ -12,7 +12,7 @@
 
 ### AWS Tools
 - **CLI**: AWS CLI v2
-- **IaC**: AWS CDK Toolkit, Terraform CLI
+- **IaC**: AWS CDK Toolkit, Terraform CLI, OpenTofu
 - **Local Testing**: LocalStack
 - **Monitoring**: CloudWatch Agent
 - **Deployment**: AWS SAM CLI
@@ -75,6 +75,7 @@
 - **AWS CDK**: CDK Documentation
 - **CloudFormation**: CloudFormation User Guide
 - **Terraform**: Terraform Documentation, Terraform Up & Running
+- **OpenTofu**: OpenTofu Documentation
 
 ### CI/CD
 - **GitLab**: GitLab CI/CD Documentation
@@ -384,9 +385,9 @@
 ---
 
 ## Need Help?
-- Review the detailed learning path in `learning-path.md`
-- Check the quick start guide in `quick-start-guide.md`
-- Refer to the role description in `role-description.md`
+- Review the detailed learning path in `./03-learning-path.md`
+- Check the quick start guide in `./04-quick-start-guide.md`
+- Refer to the role description in `./01-role-description.md`
 - Practice, practice, practice!
 
 **Good luck on your AWS Cloud Engineer journey!** 🚀

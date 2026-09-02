@@ -50,10 +50,10 @@ Build a strong foundation in backend development using JavaScript, Node.js, and 
 
 ---
 
-## Phase 2: Testing Fundamentals & Marketing (Weeks 5-8)
+## Phase 2: Testing Fundamentals (Weeks 5-6)
 
 ### Objective
-Learn testing methodologies and start building a professional portfolio.
+Learn testing methodologies to write reliable, maintainable code.
 
 ### Week 5: Unit Testing with Jest
 - Jest setup and configuration
@@ -71,7 +71,7 @@ Learn testing methodologies and start building a professional portfolio.
 - Integration testing concepts
 - Testing Express.js APIs
 
-### Week 7-8: Portfolio Development & Marketing
+### Weeks 5-8 (Ongoing): Portfolio Marketing
 - Create a GitHub profile
 - Build 2-3 backend projects
 - Write documentation for projects
@@ -164,12 +164,12 @@ Learn to define and deploy cloud infrastructure using code.
 - Deploying infrastructure with CDK
 - Best practices for IaC
 
-### Week 14: Terraform
+### Week 14: Terraform & OpenTofu
 - Terraform basics and HCL syntax
+- OpenTofu as Terraform alternative
 - Providers and resources
 - State management
 - Modules and workspaces
-- Terraform vs CloudFormation comparison
 - Multi-environment deployments
 
 ### Deliverables
