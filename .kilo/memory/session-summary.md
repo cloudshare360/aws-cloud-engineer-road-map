@@ -40,6 +40,9 @@
 └── aws-cloud-engineer/
     ├── node-js/          # Learning path (6 docs)
     ├── aws-services/     # 79 service dirs
+    ├── dev-ops/
+    │   ├── ci-cd/        # GitLab, GitHub Actions, Jenkins
+    │   └── iac/          # IaC tooling
     ├── angular/
     └── react/
 ```
@@ -52,3 +55,7 @@
 - `63bce51` — Fix Kilo CLI package name in devcontainer
 - `7b7077a` — Reorganize readme tables + fix timeline overlap
 - `98d5901` — Add Kilo AI VS Code extension config with YOLO
+- `b1581e0` — Remove redundant aws-developer and aws-serverless folders
+- `c68bea6` — Update cross-references for folder consolidation
+- `5686f69` — Add dev-ops/iac and dev-ops/ci-cd folders
+- `2ea56dc` — Add ci-cd tools directories (gitlab, github-actions, jenkenis)
