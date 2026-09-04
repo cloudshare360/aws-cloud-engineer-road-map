@@ -13,6 +13,7 @@ This folder contains all documentation for the AWS Cloud Engineer committed role
 - [07-staff-augmentation-proposal.md](./07-staff-augmentation-proposal.md) — Executive proposal for resource engagement
 - [08-learning-roadmap-diagram.md](./08-learning-roadmap-diagram.md) — Visual Mermaid diagrams for the 33-week roadmap
 - [08-learning-roadmap-diagrams.html](./08-learning-roadmap-diagrams.html) — Interactive HTML with embedded Mermaid.js
+- [09-excel-viewer.html](./09-excel-viewer.html) — View CloudEngineer-RoadMap.xlsx in browser using SheetJS
 - [aws-serverless-developer](https://github.com/cloudshare360/aws-cloud-engineer-road-map/tree/main/aws-serverless-developer) — 16-week AWS Serverless Developer specialized roadmap
 
 ---

@@ -96,113 +96,124 @@ The associate is embedded in the employer's team as a full member, with technica
 ```
 .
 ├── readme.md                         # Root index (this file)
-├── docs/                             # GitHub Pages (01-07*.md + index.html + README.md)
-├── .kilo/                            # Agent config (skills, memory, tasks, kilo.json)
+├── docs/                             # GitHub Pages (01-08*.md + index.html + README.md)
+├── .kilo/                            # Agent config (skills, memory, tasks, agent, data, meta)
 ├── .devcontainer/                     # Codespaces config
 ├── .github/workflows/pages.yml       # Pages deployment
-└── aws-cloud-engineer/
-    ├── node-js/                     # Node.js learning path
-    ├── angular/                     # Frontend resources
-    ├── react/                       # Frontend resources
-    ├── dev-ops/                     # DevOps learning materials
-    │   ├── ci-cd/                   # GitLab, GitHub Actions, Jenkins
-    │   └── iac/                     # CloudFormation, CDK, Terraform, OpenTofu
-    └── aws-services/                # 82 AWS services organized by domain
-        ├── analytics/
-        │   ├── athena
-        │   ├── datapipeline
-        │   ├── emr
-        │   ├── glue
-        │   ├── kinesis
-        │   ├── kinesis-data-analytics
-        │   ├── kinesis-firehose
-        │   ├── kinesis-video-streams
-        │   ├── opensearch
-        │   ├── quicksight
-        │   └── timestream
-        ├── application-integration/
-        │   ├── api-gateway
-        │   ├── appsync
-        │   ├── eventbridge
-        │   ├── mq
-        │   ├── ses
-        │   ├── sns
-        │   ├── sqs
-        │   └── stepfunction
-        ├── compute/
-        │   ├── ec2
-        │   └── lambda
-        ├── containers/
-        │   ├── appmesh
-        │   ├── ecr
-        │   ├── ecs
-        │   └── eks
-        ├── database/
-        │   ├── documentdb
-        │   ├── dynamodb
-        │   ├── elasticache
-        │   ├── keyspaces
-        │   ├── neptune
-        │   ├── rds
-        │   └── redshift
-        ├── developer-tools/
-        │   ├── cloud9
-        │   ├── cloudformation
-        │   ├── cloudshell
-        │   ├── codebuild
-        │   ├── codecommit
-        │   ├── codedeploy
-        │   └── codepipeline
-        ├── iot/
-        │   ├── iot-analytics
-        │   ├── iot-core
-        │   └── iot-device-defender
-        ├── machine-learning/
-        │   ├── bedrock
-        │   ├── comprehend
-        │   ├── forecast
-        │   ├── lookout
-        │   ├── polly
-        │   ├── rekognition
-        │   ├── sagemaker
-        │   ├── textract
-        │   ├── transcribe
-        │   └── translate
-        ├── management-governance/
-        │   ├── cloudwatch
-        │   ├── config
-        │   ├── systems-manager
-        │   └── trustedadvisor
-        ├── migration-transfer/
-        │   ├── application-discovery-service
-        │   ├── database-migration-service
-        │   ├── migration-hub
-        │   ├── server-migration-service
-        │   └── transfer-family
-        ├── networking-content-delivery/
-        │   ├── acm
-        │   ├── cloud-map
-        │   ├── cloudfront
-        │   ├── direct-connect
-        │   ├── elb
-        │   ├── global-accelerator
-        │   ├── route53
-        │   └── vpc
-        ├── security-identity-compliance/
-        │   ├── cloudtrail
-        │   ├── cognito
-        │   ├── guardduty
-        │   ├── iam
-        │   ├── inspector
-        │   ├── kms
-        │   ├── organizations
-        │   ├── secrets-manager
-        │   ├── shield
-        │   ├── vpn-cloudhsm
-        │   └── waf
-        ├── serverless-application-repository/
-        └── storage/
-            └── s3
+├── aws-cloud-engineer/
+│   ├── node-js/                     # Node.js learning path
+│   ├── angular/                     # Frontend resources
+│   ├── react/                       # Frontend resources
+│   ├── dev-ops/                     # DevOps learning materials
+│   │   ├── ci-cd/                   # GitLab, GitHub Actions, Jenkins
+│   │   └── iac/                     # CloudFormation, CDK, Terraform, OpenTofu
+│   └── aws-services/                # 82 AWS services organized by domain
+│       ├── analytics/
+│       │   ├── athena
+│       │   ├── datapipeline
+│       │   ├── emr
+│       │   ├── glue
+│       │   ├── kinesis
+│       │   ├── kinesis-data-analytics
+│       │   ├── kinesis-firehose
+│       │   ├── kinesis-video-streams
+│       │   ├── opensearch
+│       │   ├── quicksight
+│       │   └── timestream
+│       ├── application-integration/
+│       │   ├── api-gateway
+│       │   ├── appsync
+│       │   ├── eventbridge
+│       │   ├── mq
+│       │   ├── ses
+│       │   ├── sns
+│       │   ├── sqs
+│       │   └── stepfunction
+│       ├── compute/
+│       │   ├── ec2
+│       │   └── lambda
+│       ├── containers/
+│       │   ├── appmesh
+│       │   ├── ecr
+│       │   ├── ecs
+│       │   └── eks
+│       ├── database/
+│       │   ├── documentdb
+│       │   ├── dynamodb
+│       │   ├── elasticache
+│       │   ├── keyspaces
+│       │   ├── neptune
+│       │   ├── rds
+│       │   └── redshift
+│       ├── developer-tools/
+│       │   ├── cloud9
+│       │   ├── cloudformation
+│       │   ├── cloudshell
+│       │   ├── codebuild
+│       │   ├── codecommit
+│       │   ├── codedeploy
+│       │   └── codepipeline
+│       ├── iot/
+│       │   ├── iot-analytics
+│       │   ├── iot-core
+│       │   └── iot-device-defender
+│       ├── machine-learning/
+│       │   ├── bedrock
+│       │   ├── comprehend
+│       │   ├── forecast
+│       │   ├── lookout
+│       │   ├── polly
+│       │   ├── rekognition
+│       │   ├── sagemaker
+│       │   ├── textract
+│       │   ├── transcribe
+│       │   └── translate
+│       ├── management-governance/
+│       │   ├── cloudwatch
+│       │   ├── config
+│       │   ├── systems-manager
+│       │   └── trustedadvisor
+│       ├── migration-transfer/
+│       │   ├── application-discovery-service
+│       │   ├── database-migration-service
+│       │   ├── migration-hub
+│       │   ├── server-migration-service
+│       │   └── transfer-family
+│       ├── networking-content-delivery/
+│       │   ├── acm
+│       │   ├── cloud-map
+│       │   ├── cloudfront
+│       │   ├── direct-connect
+│       │   ├── elb
+│       │   ├── global-accelerator
+│       │   ├── route53
+│       │   └── vpc
+│       ├── security-identity-compliance/
+│       │   ├── cloudtrail
+│       │   ├── cognito
+│       │   ├── guardduty
+│       │   ├── iam
+│       │   ├── inspector
+│       │   ├── kms
+│       │   ├── organizations
+│       │   ├── secrets-manager
+│       │   ├── shield
+│       │   ├── vpn-cloudhsm
+│       │   └── waf
+│       ├── serverless-application-repository/
+│       └── storage/
+│           └── s3
+├── roadmap/                         # Roadmap assets and reference PDFs
+│   ├── CloudEngineer-RoadMap.md
+│   ├── CloudEngineer-RoadMap-EntryToMidLevel.md
+│   ├── CloudEngineer-RoadMap.xlsx
+│   └── roadmap-by-Mosh-Hamedan/
+│       ├── backend-roadmap-v2.pdf
+│       └── frontend-roadmap-v2.pdf
+└── aws-serverless-developer/        # Standalone 16-week serverless track
+    ├── README.md
+    ├── roadmap-diagram.md
+    └── roadmap-diagrams.html
 ```
 
 ---
@@ -212,12 +223,15 @@ The associate is embedded in the employer's team as a full member, with technica
 | # | Document | Purpose | Reading Order |
 |---|----------|---------|---------------|
 | 01 | [Role Description](./docs/01-role-description.md) | Responsibilities, skills, and success criteria | Employer → Vendor → Associate |
-| 02 | [Roadmap](./docs/02-roadmap.md) | 20-week learning roadmap and skill progression | After 01 |
+| 02 | [Roadmap](./docs/02-roadmap.md) | 33-week learning roadmap with four parallel tracks: Fullstack, Git/IDE, CI/CD, Agile/Architecture | After 01 |
 | 03 | [Learning Path](./docs/03-learning-path.md) | Detailed week-by-week curriculum and deliverables | After 02 |
 | 04 | [Quick Start Guide](./docs/04-quick-start-guide.md) | Daily routine, project ideas, and success metrics | Associate start here |
 | 05 | [Resources](./docs/05-resources.md) | Tools, learning resources, best practices, and interview prep | After 03 |
 | 06 | [Three-Party Engagement](./docs/06-three-party-engagement.md) | Engagement model, SLA, responsibilities, shared compensation | Employer/Vendor start here |
 | 07 | [Staff Augmentation Proposal](./docs/07-staff-augmentation-proposal.md) | Executive proposal for resource engagement | Decision-makers |
+| 08 | [Roadmap Diagrams](./docs/08-learning-roadmap-diagram.md) | Visual Mermaid diagrams for the 33-week roadmap | After 02 |
+| 09 | [Excel Roadmap Viewer](./docs/09-excel-viewer.html) | Interactive browser-based viewer for CloudEngineer-RoadMap.xlsx | After 08 |
+| 10 | [AWS Serverless Developer](https://github.com/cloudshare360/aws-cloud-engineer-road-map/tree/main/aws-serverless-developer) | 16-week specialized serverless track | Optional specialization |
 
 ### Recommended Reading Paths
 
@@ -236,7 +250,7 @@ The associate is embedded in the employer's team as a full member, with technica
 | **Support Model** | Technical expert layer for architectural guidance, code reviews, and gap remediation |
 | **Training** | Structured 33-week learning roadmap with weekly milestones |
 | **Delivery** | MEAN/MERN first, then Python/Java/.NET, then AWS cloud, then multi-cloud expansion |
-| **Tools** | Node.js, Express.js, Python, Angular/React, AWS CDK, Terraform, OpenTofu, GitLab/GitHub/Jenkins |
+| **Tools** | Node.js, Express.js, Python, Angular/React/Vue, AWS CDK, Terraform, OpenTofu, GitLab/GitHub/Jenkins, Docker, Kubernetes |
 
 ---
 
