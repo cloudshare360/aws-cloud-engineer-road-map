@@ -1,8 +1,8 @@
 # AWS Cloud Engineer — Committed Role Program
 
-A 20-week training program placing a mid-level AWS Cloud Engineer (6 YOE) into a committed, full-time role backed by a technical expert support layer.
+A 33-week training program placing a fresher with no programming background into a committed, full-time AWS Cloud Engineer role backed by a technical expert support layer.
 
-> **New here?** Start with the [Quick Start Guide](./docs/04-quick-start-guide.md) or jump to the [20-week Roadmap](./docs/02-roadmap.md).
+> **New here?** Start with the [Quick Start Guide](./docs/04-quick-start-guide.md) or jump to the [33-week Roadmap](./docs/02-roadmap.md).
 
 ---
 

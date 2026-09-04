@@ -1,9 +1,9 @@
 # Entry to Mid-Level AWS Cloud Engineer Roadmap
 
 > **Target Audience**: Fresher from college with NO programming background
-> **Duration**: 44 Weeks (~11 months)
+> **Duration**: 33 Weeks (~8-9 months)
 > **Goal**: Become a job-ready AWS Cloud Engineer (entry-to-mid level, 0-3 YOE)
-> **Focus**: AWS Development | DevOps | Serverless | Fullstack (Node.js, Python, Java + Angular, React) | Agentic AI & Automation
+> **Focus**: Fullstack (MEAN/MERN) → Python/Java/.NET → Testing → Frontend → AWS Cloud → IaC → DevOps → Multi-Cloud
 
 ---
 
@@ -17,82 +17,20 @@
 
 ---
 
-## Phase 0: Programming Foundations (Weeks 1-4)
+## Phase 1: MEAN Stack (Weeks 1-4)
+**Fullstack foundations with MongoDB, Express.js, Angular, and Node.js**
 
-**For complete beginners — build mental models before writing code**
-
-### Week 1: How the Web Works & Computer Basics
-
-- What is a computer program?
-- How does the internet work? (HTTP, DNS, IP, browsers)
-- What is a server? What is a client?
-- What is an API?
-- Developer tools setup: VS Code, terminal basics, browser DevTools
-- HTML basics (structure, tags, forms)
-
-**Hands-on**: Create a simple HTML portfolio page, view it locally.
-
-### Week 2: Programming Logic & JavaScript Basics
-
-- Variables (let, const), data types (string, number, boolean, null, undefined)
-- Operators (arithmetic, comparison, logical)
-- Control flow: if/else, ternary, switch
-- Loops: for, while, do-while, forEach
-- Functions: declarations, expressions, arrow functions, parameters, return values
-- Scope: global, function, block
-
-**Hands-on**: Build a number-guessing game in JavaScript (run in browser console).
-
-### Week 3: Data Structures & Algorithms Basics
-
-- Arrays: methods (push, pop, map, filter, reduce, find)
-- Objects: keys, values, destructuring
-- Strings: methods, template literals
-- ES6+ features: spread operator, rest parameters, modules
-- Basic algorithms: linear search, bubble sort, two-sum
-- Problem-solving mindset
-
-**Hands-on**: Solve 10 beginner problems on LeetCode/CodeWars (arrays and strings).
-
-### Week 4: Asynchronous JavaScript & Git Basics
-
-- Callbacks, call stack
-- Promises: then/catch/finally
-- Async/await syntax
-- Error handling: try/catch/finally
-- Git basics: init, add, commit, push, pull
-- GitHub: repos, README, branches, PRs
-
-**Hands-on**: Create a GitHub repo, push HTML portfolio, write a professional README.
-
-**Phase 0 Deliverables**:
-
-- [ ] HTML portfolio page hosted on GitHub Pages
-- [ ] 10 LeetCode problems solved
-- [ ] Active GitHub profile with 2 repos
-- [ ] Terminal comfort with 20+ commands
-
----
-
-## Phase 1: Backend Development — Node.js (Weeks 5-8)
-
-**Primary backend language for serverless and fullstack**
-
-### Week 5: Node.js Runtime & npm
-
-- What is Node.js? Event loop, non-blocking I/O
-- Installation and version management (nvm)
-- npm: init, install, scripts, semantic versioning
-- File System (fs) module: readFile, writeFile
-- Path module
+### Week 1: MongoDB & Node.js Fundamentals
+- MongoDB basics: documents, collections, CRUD operations
+- Node.js architecture and event loop
+- npm and package management
+- File system (fs) module
 - Environment variables: dotenv
-- 
-- Process module: env, argv
+- Connecting Node.js to MongoDB with Mongoose
 
-**Hands-on**: Build a CLI tool that reads a file and counts word frequency.
+**Hands-on**: Build a Node.js CLI that connects to MongoDB and performs CRUD operations.
 
-### Week 6: Express.js & REST APIs
-
+### Week 2: Express.js & REST APIs
 - Express setup: app, middleware, routing
 - Request/response objects (req, res)
 - Middleware: custom, third-party (cors, helmet, morgan)
@@ -100,48 +38,96 @@
 - Status codes, JSON responses
 - Validation basics (Joi/Zod)
 
-**Hands-on**: Build a CRUD API for a "Task Manager" with in-memory storage.
+**Hands-on**: Build a CRUD API for a "Task Manager" with MongoDB storage.
 
-### Week 7: Databases & Data Modeling
+### Week 3: Angular Fundamentals
+- Angular CLI and project setup
+- Components and templates
+- Data binding (interpolation, property, event)
+- Directives (ngIf, ngFor, custom)
+- Pipes and custom pipes
+- Services and Dependency Injection
+- HttpClient for API integration
 
-- SQL vs NoSQL concepts
-- PostgreSQL: installation, psql, basic queries (SELECT, INSERT, UPDATE, DELETE)
-- DynamoDB: tables, items, attributes, partitions, sort keys
-- ORMs: Prisma (for SQL), Mongoose (for NoSQL)
-- Connecting databases to Express
-- Connection pooling
+**Hands-on**: Build Angular frontend consuming Task Manager API.
 
-**Hands-on**: Add PostgreSQL to Task Manager API. Migrate to DynamoDB and compare.
+### Week 4: MEAN Stack Integration
+- Angular routing and navigation
+- Reactive Forms and validation
+- Authentication with JWT
+- Error handling in Angular
+- Connecting Angular to Express backend
+- Deployment basics
 
-### Week 8: Authentication, Security & Advanced Node.js
-
-- Authentication vs Authorization
-- JWT (JSON Web Tokens): sign, verify, structure
-- Password hashing: bcrypt
-- OAuth2 basics (Google/GitHub login)
-- Security headers: Helmet, CORS
-- Rate limiting, input sanitization
-- Logging: Winston, Morgan
-- Error handling best practices
-
-**Hands-on**: Add JWT auth to Task Manager API. Implement Google OAuth.
+**Hands-on**: Complete MEAN stack application with auth and deployment.
 
 **Phase 1 Deliverables**:
-
-- [ ] Production-ready REST API (Node.js + Express)
-- [ ] PostgreSQL + DynamoDB integration
-- [ ] JWT + OAuth2 authentication
-- [ ] API documented with Swagger/OpenAPI
-- [ ] Deployed to Render/Railway/AWS EC2
+- [ ] MEAN stack CRUD application
+- [ ] MongoDB with Mongoose integration
+- [ ] Angular frontend with routing and forms
+- [ ] JWT authentication
+- [ ] Deployed application
 
 ---
 
-## Phase 2: Backend Development — Python (Weeks 9-10)
+## Phase 2: MERN Stack (Weeks 5-8)
+**React-based fullstack development with MongoDB, Express.js, React.js, and Node.js**
 
-**Essential for scripting, AWS automation, and data engineering**
+### Week 5: React.js Fundamentals
+- JSX, components, props
+- State: useState, useEffect
+- Component lifecycle (useEffect cleanup)
+- Conditional rendering, lists/keys
+- Forms and controlled components
+- React Router: BrowserRouter, Routes, Route, Link
+- Axios for API calls
+- Error boundaries
+
+**Hands-on**: Build React frontend for Task Manager API.
+
+### Week 6: React Advanced & State Management
+- Custom hooks
+- Context API for global state
+- Redux Toolkit for state management
+- React Query / TanStack Query for server state
+- Performance: React.memo, useMemo, useCallback
+- Code splitting and lazy loading
+
+**Hands-on**: Refactor Task Manager frontend with Redux Toolkit + React Query.
+
+### Week 7: MERN Stack Integration
+- Connecting React to Express/MongoDB backend
+- Authentication flow in React
+- Protected routes
+- File upload with Multer
+- Error handling and loading states
+- API integration patterns
+
+**Hands-on**: Complete MERN stack application with auth and file upload.
+
+### Week 8: Fullstack Deployment & Portfolio
+- Environment configuration for React
+- Build optimization
+- Deploying to Render/Railway/AWS
+- GitHub portfolio setup
+- Writing project documentation
+- LinkedIn profile creation
+
+**Hands-on**: Deploy MERN app to production. Create portfolio README.
+
+**Phase 2 Deliverables**:
+- [ ] MERN stack CRUD application
+- [ ] React with Redux Toolkit
+- [ ] Authentication and protected routes
+- [ ] Deployed to production
+- [ ] Portfolio-ready documentation
+
+---
+
+## Phase 3: Python Fundamentals (Weeks 9-10)
+**Scripting, automation, and backend development with Flask/FastAPI**
 
 ### Week 9: Python Fundamentals
-
 - Installation, virtual environments, pip
 - Variables, data types, type hints
 - Control flow, loops, functions
@@ -152,31 +138,28 @@
 
 **Hands-on**: Build a CLI todo app in Python. Parse a CSV file and generate summary stats.
 
-### Week 10: Python for AWS & Web
-
+### Week 10: Python Web & AWS Automation
 - Flask basics: routes, request/response, templates
+- FastAPI basics: async routes, validation, OpenAPI docs
 - boto3: AWS SDK for Python
 - Lambda functions in Python
 - S3 operations with boto3
 - SES email sending with boto3
 - Python packaging and modules
 
-**Hands-on**: Build a Flask API that uploads files to S3 and sends confirmation emails via SES.
+**Hands-on**: Build a Flask/FastAPI API that uploads files to S3 and sends confirmation emails via SES.
 
-**Phase 2 Deliverables**:
-
+**Phase 3 Deliverables**:
 - [ ] Python CLI tool with file I/O
-- [ ] Flask API with boto3 AWS integration
+- [ ] Flask/FastAPI API with boto3 AWS integration
 - [ ] Script to automate AWS resource tagging
 
 ---
 
-## Phase 3: Backend Development — Java (Weeks 11-12)
-
-**Enterprise-grade backend and Spring ecosystem**
+## Phase 4: Java Fundamentals (Weeks 11-12)
+**Enterprise-grade backend development with Java and Spring Boot**
 
 ### Week 11: Java Fundamentals
-
 - JDK installation, IDE setup (IntelliJ IDEA)
 - Variables, primitives, objects
 - Control flow, loops
@@ -188,7 +171,6 @@
 **Hands-on**: Build a student management system with CRUD operations using Collections.
 
 ### Week 12: Spring Boot & Build Tools
-
 - Maven/Gradle basics
 - Spring Boot project setup (Spring Initializr)
 - REST controllers (@RestController, @GetMapping, @PostMapping)
@@ -199,20 +181,51 @@
 
 **Hands-on**: Build a Spring Boot REST API for "Product Catalog" with H2 database.
 
-**Phase 3 Deliverables**:
-
+**Phase 4 Deliverables**:
 - [ ] Java OOP project with Collections
 - [ ] Spring Boot REST API with JPA
 - [ ] Understanding of build tools (Maven/Gradle)
 
 ---
 
-## Phase 4: Testing Mastery (Weeks 13-15)
+## Phase 5: .NET / C# Fundamentals (Weeks 13-14)
+**Microsoft ecosystem backend development with C# and ASP.NET Core**
 
+### Week 13: C# Fundamentals
+- .NET SDK installation, IDE setup (Visual Studio / Rider)
+- Variables, data types, nullable types
+- Control flow, loops, switch expressions
+- OOP: classes, interfaces, inheritance, polymorphism
+- Collections: List, Dictionary, HashSet
+- LINQ for data querying
+- Exception handling: try/catch/finally
+- File I/O and JSON serialization
+
+**Hands-on**: Build a console-based inventory management system with file persistence.
+
+### Week 14: ASP.NET Core & Web APIs
+- ASP.NET Core project setup
+- Controllers and routing
+- Dependency Injection
+- Entity Framework Core for data access
+- Building RESTful APIs
+- Middleware and filters
+- Authentication with JWT
+- Swagger/OpenAPI documentation
+
+**Hands-on**: Build an ASP.NET Core Web API for "Order Management" with EF Core.
+
+**Phase 5 Deliverables**:
+- [ ] C# console application with file I/O
+- [ ] ASP.NET Core Web API with EF Core
+- [ ] Understanding of .NET ecosystem
+
+---
+
+## Phase 6: Testing Fundamentals (Weeks 15-17)
 **Unit, integration, and functional testing across stacks**
 
-### Week 13: Unit Testing — Jest, Mocha & Sinon
-
+### Week 15: Unit Testing — Jest, Mocha & Sinon
 - Testing concepts: unit vs integration vs E2E
 - Jest setup: describe, it, expect, matchers
 - Async testing with Jest
@@ -223,8 +236,7 @@
 
 **Hands-on**: Write comprehensive unit tests for Task Manager API (Node.js) using Jest + Sinon. Write tests for Python CLI app using pytest.
 
-### Week 14: API Integration Testing — Cucumber
-
+### Week 16: API Integration Testing — Cucumber
 - Behavior-Driven Development (BDD)
 - Gherkin syntax: Feature, Scenario, Given, When, Then
 - Cucumber setup with Node.js/Python/Java
@@ -235,8 +247,7 @@
 
 **Hands-on**: Write Cucumber tests for REST API endpoints. Generate HTML reports.
 
-### Week 15: Functional & E2E Testing — Playwright
-
+### Week 17: Functional & E2E Testing — Playwright
 - Playwright setup (Node.js/Python/Java)
 - Browser automation basics
 - Selectors, locators
@@ -248,8 +259,7 @@
 
 **Hands-on**: Automate login flow and CRUD operations for a web app using Playwright. Run tests in CI.
 
-**Phase 4 Deliverables**:
-
+**Phase 6 Deliverables**:
 - [ ] Jest/Mocha test suite with >80% coverage
 - [ ] Cucumber BDD test suite with reports
 - [ ] Playwright E2E test suite with POM
@@ -257,73 +267,68 @@
 
 ---
 
-## Phase 5: Frontend Development (Weeks 16-19)
+## Phase 7: Frontend Development (Weeks 18-21)
+**Master Angular, React, and Vue.js for enterprise frontend development**
 
-**Fullstack capability — React first, Angular second**
-
-### Week 16: React.js Fundamentals
-
-- JSX, components, props
-- State: useState, useEffect
-- Component lifecycle (useEffect cleanup)
-- Conditional rendering, lists/keys
-- Forms and controlled components
-- React Router: BrowserRouter, Routes, Route, Link
-- Axios for API calls
-- Error boundaries
-
-**Hands-on**: Build a React frontend for Task Manager API. Implement routing, CRUD, and auth.
-
-### Week 17: React Advanced & State Management
-
-- Custom hooks
-- Context API for global state
-- Redux Toolkit (optional but recommended)
-- React Query / TanStack Query for server state
-- Performance: React.memo, useMemo, useCallback
-- Code splitting and lazy loading
-
-**Hands-on**: Refactor Task Manager frontend with Redux Toolkit + React Query.
-
-### Week 18: Angular Fundamentals
-
-- Angular CLI, project structure, modules
-- Components, templates, data binding
-- Directives: ngIf, ngFor, ngSwitch
-- Pipes: built-in and custom
-- Services and Dependency Injection
-- RxJS basics: Observables, subscribe, pipe
-- HttpClient for API integration
-
-**Hands-on**: Build Angular version of Task Manager. Implement services and HTTP client.
-
-### Week 19: Angular Advanced
-
+### Week 18: Angular Advanced
+- Angular Services & Dependency Injection
+- RxJS fundamentals (Observables, Operators)
 - Reactive Forms and validation
 - Template-driven forms
-- Routing: RouterModule, route guards, lazy loading
-- NgRx: actions, reducers, selectors, effects
-- Authentication flow in Angular
-- Material Design / Angular Material
+- Angular Router configuration
+- Route guards (CanActivate, CanDeactivate)
+- Lazy loading modules
+- NgRx for state management
+
+**Hands-on**: Build complete Angular app with NgRx state management, guards, and Material UI.
+
+### Week 19: React Advanced & Next.js
+- Context API for global state
+- Redux Toolkit for state management
+- React Query / TanStack Query for server state
+- Next.js framework (SSR, SSG, API Routes)
+- React Hooks (useState, useEffect, useContext)
+- Routing with Next.js
+- Data fetching strategies
+- Deployment and optimization
+
+**Hands-on**: Build Next.js application with API routes, SSR, and deployment.
+
+### Week 20: Vue.js Fundamentals
+- Vue.js 3 Composition API
+- Vue CLI and project structure
+- Components, props, and emits
+- Reactive data with ref and reactive
+- Vue Router for navigation
+- State management with Pinia
+- Axios for API integration
 - Build optimization and deployment
 
-**Hands-on**: Complete Angular app with NgRx state management, guards, and Material UI.
+**Hands-on**: Build Vue.js application with Pinia state management and routing.
 
-**Phase 5 Deliverables**:
+### Week 21: Frontend Testing & Integration
+- Angular testing with Jasmine & Karma
+- Component testing and service testing
+- React testing with Jest and React Testing Library
+- Vue testing with Vitest
+- End-to-end testing with Playwright/Cypress
+- Fullstack integration patterns
 
-- [ ] React fullstack app deployed
-- [ ] Angular fullstack app deployed
-- [ ] Understanding of component architecture
-- [ ] State management implementation (Redux/NgRx)
+**Hands-on**: Write comprehensive test suites for Angular, React, and Vue apps.
+
+**Phase 7 Deliverables**:
+- [ ] Complete Angular enterprise application
+- [ ] Next.js application with SSR
+- [ ] Vue.js application with state management
+- [ ] Comprehensive test suites for all frameworks
+- [ ] Production-ready deployments
 
 ---
 
-## Phase 6: AWS Fundamentals & Serverless (Weeks 20-23)
+## Phase 8: AWS Fundamentals & Serverless (Weeks 22-25)
+**Master AWS core services and serverless architectures**
 
-**Cloud foundation before deep dives**
-
-### Week 20: AWS Account Setup & Core Services
-
+### Week 22: AWS Account Setup & Core Services
 - AWS Free Tier setup and cost guardrails (budget alerts)
 - AWS Global Infrastructure (Regions, AZs, Edge Locations)
 - IAM: users, groups, roles, policies, MFA, least privilege
@@ -333,8 +338,7 @@
 
 **Hands-on**: Create IAM users/groups/roles. Set up budget alerts. Configure CloudWatch alarms.
 
-### Week 21: Serverless Compute & APIs
-
+### Week 23: Serverless Compute & APIs
 - AWS Lambda: runtime, handler, layers, environment variables
 - Lambda triggers and integrations
 - Amazon API Gateway: REST APIs, HTTP APIs, stages, deployments
@@ -344,8 +348,7 @@
 
 **Hands-on**: Build a serverless REST API (Lambda + API Gateway) replacing Express backend.
 
-### Week 22: Data & Storage Services
-
+### Week 24: Data & Storage Services
 - Amazon DynamoDB: tables, partitions, sort keys, GSI/LSI
 - DynamoDB operations and transactions
 - Amazon S3: buckets, objects, versioning, lifecycle policies
@@ -355,8 +358,7 @@
 
 **Hands-on**: Build serverless CRUD API with DynamoDB. Implement file upload to S3.
 
-### Week 23: Integration, Messaging & Workflows
-
+### Week 25: Integration, Messaging & Workflows
 - Amazon SNS: topics, subscriptions, FIFO topics
 - Amazon SQS: queues, message visibility, dead-letter queues
 - Amazon SES: sending emails, templates, configurations
@@ -366,8 +368,7 @@
 
 **Hands-on**: Build an order processing workflow with Step Functions. Trigger Lambda from S3 upload and send email via SES.
 
-**Phase 6 Deliverables**:
-
+**Phase 8 Deliverables**:
 - [ ] Serverless backend (Lambda + API Gateway + DynamoDB)
 - [ ] File upload service with S3
 - [ ] Messaging pipeline (SNS + SQS + SES)
@@ -376,23 +377,21 @@
 
 ---
 
-## Phase 7: AWS Advanced Services (Weeks 24-27)
+## Phase 9: AWS Advanced Services (Weeks 26-29)
+**Containers, monitoring, networking, and advanced compute**
 
-**Containers, monitoring, and advanced compute**
-
-### Week 24: Containers & Orchestration
-
+### Week 26: Containers & Orchestration
 - Docker fundamentals: images, containers, Dockerfile, volumes
 - Docker Compose for multi-container apps
 - Amazon ECR: registries, repositories, image scanning
+- Amazon App Runner: simplified container deployment
 - Amazon ECS: task definitions, services, Fargate
 - Amazon EKS: clusters, node groups, kubectl basics
 - Load Balancers: ALB, NLB basics
 
-**Hands-on**: Containerize Task Manager API. Deploy to ECS Fargate. Set up EKS cluster.
+**Hands-on**: Containerize Task Manager API. Deploy to ECS Fargate and App Runner.
 
-### Week 25: EC2, VPC & Networking
-
+### Week 27: EC2, VPC & Networking
 - Amazon EC2: instances, AMIs, key pairs, security groups
 - Amazon VPC: subnets, route tables, NAT gateways, IGW
 - Elastic Load Balancing: ALB, target groups
@@ -401,8 +400,7 @@
 
 **Hands-on**: Deploy app to EC2. Set up VPC with public/private subnets. Configure Route 53.
 
-### Week 26: Monitoring, Tracing & Advanced Databases
-
+### Week 28: Monitoring, Tracing & Advanced Databases
 - Amazon CloudWatch: custom metrics, dashboards, log insights
 - AWS X-Ray: service map, traces, annotations
 - Amazon OpenSearch: indices, queries, Kibana
@@ -412,8 +410,7 @@
 
 **Hands-on**: Set up CloudWatch dashboard for Lambda metrics. Enable X-Ray tracing. Query S3 data with Athena.
 
-### Week 27: GraphQL, Caching & Additional Services
-
+### Week 29: GraphQL, Caching & Additional Services
 - AWS AppSync: GraphQL APIs, resolvers, data sources
 - Amazon ElastiCache: Redis/Memcached basics
 - AWS AppConfig for feature flags
@@ -422,21 +419,18 @@
 
 **Hands-on**: Build a GraphQL API with AppSync connected to DynamoDB.
 
-**Phase 7 Deliverables**:
-
-- [ ] Containerized app on ECS/EKS
+**Phase 9 Deliverables**:
+- [ ] Containerized app on ECS/App Runner
 - [ ] VPC architecture diagram and deployment
 - [ ] Monitoring dashboard (CloudWatch + X-Ray)
 - [ ] GraphQL API with AppSync
 
 ---
 
-## Phase 8: Infrastructure as Code (IaC) (Weeks 28-29)
+## Phase 10: Infrastructure as Code (IaC) (Weeks 30-31)
+**Automate infrastructure — repeatable, versioned deployments**
 
-**Automate everything — repeatable, versioned infrastructure**
-
-### Week 28: CloudFormation & AWS CDK
-
+### Week 30: CloudFormation & AWS CDK
 - CloudFormation: templates, stacks, change sets
 - YAML/JSON template structure
 - Intrinsic functions (Ref, Fn::GetAtt, Sub)
@@ -446,8 +440,7 @@
 
 **Hands-on**: Deploy serverless app using CloudFormation. Re-deploy using CDK.
 
-### Week 29: Terraform & OpenTofu
-
+### Week 31: Terraform & OpenTofu
 - Terraform installation, HCL syntax
 - Providers, resources, data sources
 - Variables, outputs, locals
@@ -458,8 +451,7 @@
 
 **Hands-on**: Deploy VPC + ECS + RDS using Terraform. Deploy same with OpenTofu.
 
-**Phase 8 Deliverables**:
-
+**Phase 10 Deliverables**:
 - [ ] Infrastructure deployed with CloudFormation
 - [ ] Infrastructure deployed with AWS CDK
 - [ ] Infrastructure deployed with Terraform
@@ -468,26 +460,23 @@
 
 ---
 
-## Phase 9: CI/CD & DevOps (Weeks 30-31)
-
+## Phase 11: CI/CD & DevOps (Weeks 32-33)
 **Automate build, test, and deployment**
 
-### Week 30: Git, GitHub & GitLab
-
+### Week 32: Git, GitLab & GitHub
 - Advanced Git: rebase, cherry-pick, bisect, reflog
 - Branching strategies: GitFlow, GitHub Flow, Trunk-Based
-- GitHub: Actions, Packages, Codespaces, Projects
 - GitLab: CI/CD pipelines, Auto DevOps, Package Registry
+- GitHub: Actions, Packages, Codespaces, Projects
 - Pull request templates, CODEOWNERS
 - Git hooks (Husky) for pre-commit linting
 
-**Hands-on**: Set up monorepo with GitHub Actions. Set up GitLab CI for multi-environment deploy.
+**Hands-on**: Set up monorepo with GitLab CI. Set up GitHub Actions for multi-environment deploy.
 
-### Week 31: CI/CD Pipelines & Deployment Strategies
-
+### Week 33: CI/CD Pipelines & Deployment Strategies
 - Pipeline concepts: build, test, scan, deploy
-- GitHub Actions: workflows, jobs, matrix, caching
 - GitLab CI: .gitlab-ci.yml, stages, artifacts
+- GitHub Actions: workflows, jobs, matrix, caching
 - Jenkins: freestyle vs pipeline, Jenkinsfile
 - Deployment strategies: Rolling, Blue/Green, Canary
 - Secrets management in CI (GitHub Secrets, GitLab Variables)
@@ -495,9 +484,8 @@
 
 **Hands-on**: Build complete CI/CD pipeline: lint → test → build → deploy to AWS. Implement Blue/Green deployment.
 
-**Phase 9 Deliverables**:
-
-- [ ] Production-grade CI/CD pipeline (GitHub Actions or GitLab CI)
+**Phase 11 Deliverables**:
+- [ ] Production-grade CI/CD pipeline (GitLab CI or GitHub Actions)
 - [ ] Automated testing in pipeline (unit, integration, E2E)
 - [ ] Automated deployment to AWS
 - [ ] Blue/Green deployment strategy
@@ -505,141 +493,47 @@
 
 ---
 
-## Phase 10: Agentic Development & AI Automation (Weeks 32-36)
+## Multi-Cloud Expansion (Post-AWS Mastery)
 
-**Build intelligent agents that automate end-to-end workflows**
+### Objective
+Expand knowledge beyond AWS to Azure and GCP after mastering AWS.
 
-### Week 32: Generative AI & AI Tools for Developers
+### Azure Fundamentals
+- Azure Global Infrastructure
+- Azure Compute (VMs, App Service, AKS)
+- Azure Storage (Blob, Files, Queue)
+- Azure Databases (SQL, Cosmos DB)
+- Azure Networking (VNet, Load Balancer, CDN)
+- Azure IAM and Security
+- Azure DevOps and CI/CD
 
-- What is Generative AI? LLMs, transformers, tokenization
-- AI coding assistants: GitHub Copilot, Claude Code, Codex CLI
-- Prompt engineering basics: context, constraints, examples
-- Using AI for code generation, refactoring, and review
-- AI for documentation and debugging
-- Ethical considerations and limitations
+### Google Cloud Platform (GCP) Fundamentals
+- GCP Global Infrastructure
+- GCP Compute (Compute Engine, GKE, Cloud Run)
+- GCP Storage (Cloud Storage, Cloud SQL)
+- GCP Databases (Firestore, Bigtable, Spanner)
+- GCP Networking (VPC, Cloud Load Balancing, Cloud CDN)
+- GCP IAM and Security
+- GCP Deployment and CI/CD
 
-**Hands-on**: Use Copilot/Claude to build a full feature. Use AI to refactor legacy code.
-
-### Week 33: Agentic AI Concepts & Frameworks
-
-- What is Agentic AI? Autonomous agents vs chatbots
-- Agent components: tools, memory, reasoning, planning
-- LangChain/LangGraph basics: chains, agents, tools
-- CrewAI: multi-agent orchestration
-- AutoGen: conversational multi-agent patterns
-- Building a simple agent with tool use
-
-**Hands-on**: Build a research agent that searches web and summarizes findings.
-
-### Week 34: RAG — Retrieval Augmented Generation
-
-- What is RAG and why it matters
-- Vector databases: Pinecone, Weaviate, pgvector, Chroma
-- Embeddings: OpenAI, Cohere, Amazon Titan, HuggingFace
-- Chunking strategies: recursive, semantic, sliding window
-- Retrieval strategies: dense, sparse, hybrid
-- AWS Kendra for enterprise search
-- Evaluation metrics: recall, precision, faithfulness
-
-**Hands-on**: Build a RAG chatbot for company documentation using LangChain + Pinecone.
-
-### Week 35: MCP (Model Context Protocol) & AWS Bedrock
-
-- What is MCP? Standardizing AI-tool integrations
-- MCP architecture: client, server, transport
-- Building MCP servers and clients
-- AWS Bedrock: managed foundation models
-- Bedrock models: Claude, Titan, Llama, Mistral
-- Bedrock Agents: action groups, knowledge bases
-- Amazon Bedrock Flows for agent orchestration
-
-**Hands-on**: Build an MCP server for a custom tool. Create a Bedrock agent with knowledge base.
-
-### Week 36: Building Production Agents & Automation Workflows
-
-- Agent design patterns: ReAct, Plan-and-Execute, Reflexion
-- Memory: short-term (conversation), long-term (vector store)
-- Tool use: API calls, database queries, file operations
-- Human-in-the-loop patterns
-- Error handling and fallback strategies
-- Observability: LangSmith, tracing, logging
-- End-to-end automation case study
-
-**Hands-on**: Build a flight booking agent that:
-
-- Asks user preferences (min/max cost, dates, times, meal preferences)
-- Researches flight options via API
-- Compares and summarizes options
-- Proceeds to booking flow with payment integration
-
-**Phase 10 Deliverables**:
-
-- [ ] AI-assisted development workflow (Copilot/Claude)
-- [ ] Simple agent with tool use
-- [ ] RAG chatbot with vector database
-- [ ] MCP server implementation
-- [ ] AWS Bedrock agent with knowledge base
-- [ ] End-to-end automation agent (flight booking use case)
-
----
-
-## Phase 11: Capstone Project & Job Preparation (Weeks 37-40)
-
-**Synthesize all skills into portfolio-ready projects**
-
-### Week 37: Capstone Project — Part 1
-
-- Choose a complex, real-world problem
-- Design system architecture
-- Plan AWS infrastructure
-- Set up repositories and CI/CD
-- Implement backend (Node.js/Python/Java)
-
-### Week 38: Capstone Project — Part 2
-
-- Implement frontend (React/Angular)
-- Add comprehensive testing (unit, integration, E2E)
-- Containerize and deploy
-- Add monitoring and observability
-
-### Week 39: Capstone Project — Part 3
-
-- Automate infrastructure with IaC
-- Add AI/Agentic features (optional)
-- Document thoroughly
-- Record demo video
-- Write blog post/tutorial
-
-### Week 40: Job Preparation
-
-- Resume tailoring for Cloud Engineer roles
-- LinkedIn optimization
-- Portfolio website
-- Mock interviews (system design, coding, behavioral)
-- AWS certification prep (Solutions Architect Associate or Developer Associate)
-- Job application strategy
-
-**Phase 11 Deliverables**:
-
-- [ ] Complete capstone project deployed
-- [ ] GitHub portfolio with 5+ projects
-- [ ] Resume and LinkedIn updated
-- [ ] AWS certification attempt
-- [ ] Job applications submitted
+### Multi-Cloud Architecture
+- Cloud-agnostic design patterns
+- Multi-cloud IaC strategies
+- Cross-cloud networking and connectivity
+- Cost optimization across providers
+- Hybrid cloud and edge computing
 
 ---
 
 ## Continuous Learning & Specializations
 
 ### AWS Certifications (Pursue in order)
-
 1. AWS Cloud Practitioner
 2. AWS Developer Associate
 3. AWS Solutions Architect Associate
 4. AWS DevOps Engineer Professional
 
 ### Advanced Topics
-
 - Kubernetes deeper dive (Helm, Operators, Service Mesh)
 - AWS Security: IAM advanced, Security Hub, GuardDuty
 - Data engineering: EMR, Glue, Redshift
@@ -647,7 +541,6 @@
 - Cost optimization and FinOps
 
 ### Communities & Practice
-
 - AWS Free Tier for experimentation
 - AWS Skill Builder hands-on labs
 - LeetCode for algorithms
@@ -659,7 +552,6 @@
 ## Recommended Resources
 
 ### Platforms
-
 - AWS Free Tier
 - AWS Skill Builder
 - A Cloud Guru
@@ -667,18 +559,7 @@
 - Pluralsight
 - GitHub Student Pack
 
-### AI & Agentic Tools
-
-- GitHub Copilot
-- Claude (Anthropic)
-- AWS Bedrock
-- LangChain
-- LangSmith
-- Pinecone/Chroma
-- MCP SDK
-
 ### Testing Tools
-
 - Jest
 - Mocha
 - Chai
@@ -687,64 +568,68 @@
 - Playwright
 
 ### IaC & DevOps
-
 - Terraform
 - OpenTofu
 - AWS CDK
 - CloudFormation
-- GitHub Actions
 - GitLab CI
+- GitHub Actions
 - Jenkins
 
 ### Frontend
-
-- React
 - Angular
+- React
 - Next.js
+- Vue.js
 - Redux Toolkit
 - NgRx
+- Pinia
 
 ### Backend
-
 - Node.js
 - Express
+- MongoDB
 - Python
 - Flask
+- FastAPI
 - Java
 - Spring Boot
+- C#
+- ASP.NET Core
+
+### Cloud
+- AWS Documentation
+- Azure Documentation
+- GCP Documentation
 
 ---
 
 ## Assessment Criteria
 
 ### Weekly Assessments
-
 - Code reviews
 - Project submissions
 - Knowledge quizzes
 - Practical assignments
 
 ### Milestone Projects
-
-- Phase 0: HTML portfolio + Git workflow
-- Phase 1: REST API with authentication
-- Phase 2: Python automation script
-- Phase 3: Spring Boot API
-- Phase 4: Complete test suite
-- Phase 5: Fullstack application
-- Phase 6: Serverless AWS application
-- Phase 7: Containerized app + monitoring
-- Phase 8: IaC deployments (4 tools)
-- Phase 9: Complete CI/CD pipeline
-- Phase 10: AI automation agent
-- Phase 11: Capstone project
+- Phase 1: MEAN stack application
+- Phase 2: MERN stack application
+- Phase 3: Python automation/API project
+- Phase 4: Java/Spring Boot API
+- Phase 5: ASP.NET Core API
+- Phase 6: Complete test suite
+- Phase 7: Multi-framework frontend apps
+- Phase 8: Serverless AWS application
+- Phase 9: Containerized app + monitoring
+- Phase 10: IaC deployments
+- Phase 11: Complete CI/CD pipeline
 
 ### Final Assessment
-
-- Complete cloud-native application
+- Complete cloud-native fullstack application
 - Infrastructure deployed with IaC
 - CI/CD pipeline implemented
-- AI/Agentic features integrated
+- Multi-cloud awareness demonstrated
 - Documentation and presentation
 
 ---
@@ -755,20 +640,20 @@
 2. **Build Projects**: Apply learning through real projects
 3. **Document Everything**: Keep notes and write blog posts
 4. **Join Communities**: Engage with other learners and professionals
-5. **Stay Updated**: Follow AWS blogs and AI/agentic trends
+5. **Stay Updated**: Follow AWS, Azure, and GCP blogs
 6. **Get Certified**: Pursue AWS certifications to validate skills
 7. **Seek Feedback**: Share code for reviews and improve continuously
 8. **Teach Others**: Explain concepts to reinforce understanding
-9. **Experiment with AI**: Use Copilot, Claude, and Bedrock in daily work
-10. **Think in Agents**: Design solutions as autonomous, goal-driven systems
+9. **Think Fullstack**: Design solutions end-to-end from frontend to cloud
+10. **Master One Cloud First**: Deep AWS expertise before expanding to Azure/GCP
 
 ---
 
 ## Next Steps After Completion
-
 - Pursue AWS certifications
+- Expand to Azure and GCP
 - Contribute to open source projects
-- Build agentic AI solutions
+- Build a strong portfolio
 - Network with industry professionals
 - Apply for Cloud Engineer positions
 - Continue learning advanced topics (security, ML, etc.)
