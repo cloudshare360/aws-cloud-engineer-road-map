@@ -9,9 +9,12 @@
   <script>
     const path = window.location.pathname;
     const projectRoot = '/aws-cloud-engineer-road-map';
-    const docsPath = `${projectRoot}/docs${path.slice(projectRoot.length)}`;
-    fetch(docsPath, { method: 'HEAD' }).then((response) => {
-      if (response.ok && docsPath !== path) window.location.replace(docsPath + window.location.search);
+    const legacyPrefix = `${projectRoot}/docs/`;
+    const sitePath = path.startsWith(legacyPrefix)
+      ? `${projectRoot}/${path.slice(legacyPrefix.length)}`
+      : `${projectRoot}/`;
+    fetch(sitePath, { method: 'HEAD' }).then((response) => {
+      if (response.ok && sitePath !== path) window.location.replace(sitePath + window.location.search);
     });
   </script>
 </body>
