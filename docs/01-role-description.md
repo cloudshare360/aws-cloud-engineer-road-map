@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Role Description
 
 ## Role Overview
@@ -63,6 +67,6 @@ An AWS Cloud Engineer is responsible for designing, building, deploying, and mai
 
 ## Continue To
 
-- **[02-roadmap.md](./02-roadmap.md)** — See the 20-week learning roadmap and skill progression
-- **[06-three-party-engagement.md](./06-three-party-engagement.md)** — Understand the engagement model, SLA, and responsibilities
-- **[07-staff-augmentation-proposal.md](./07-staff-augmentation-proposal.md)** — Review the executive proposal for resource engagement
+- **[02-roadmap](./02-roadmap.html)** — See the 20-week learning roadmap and skill progression
+- **[06-three-party-engagement](./06-three-party-engagement.html)** — Understand the engagement model, SLA, and responsibilities
+- **[07-staff-augmentation-proposal](./07-staff-augmentation-proposal.html)** — Review the executive proposal for resource engagement

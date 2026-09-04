@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Three-Party Engagement Model
 
 ## Executive Summary
@@ -399,6 +403,6 @@ This shared-pay model aligns incentives across all parties: the Employer gets co
 
 ## Continue To
 
-- **[07-staff-augmentation-proposal.md](./07-staff-augmentation-proposal.md)** — Executive proposal for resource engagement
-- **[01-role-description.md](./01-role-description.md)** — Review role responsibilities and success criteria
-- **[03-learning-path.md](./03-learning-path.md)** — Detailed week-by-week curriculum with objectives and deliverables
+- **[07-staff-augmentation-proposal](./07-staff-augmentation-proposal.html)** — Executive proposal for resource engagement
+- **[01-role-description](./01-role-description.html)** — Review role responsibilities and success criteria
+- **[03-learning-path](./03-learning-path.html)** — Detailed week-by-week curriculum with objectives and deliverables

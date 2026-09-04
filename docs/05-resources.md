@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Resources & Best Practices
 
 ## Essential Tools
@@ -396,5 +400,5 @@
 
 ## Continue To
 
-- **[04-quick-start-guide.md](./04-quick-start-guide.md)** — Daily routine, project ideas, and success metrics
-- **[03-learning-path.md](./03-learning-path.md)** — Detailed week-by-week curriculum with objectives and deliverables
+- **[04-quick-start-guide](./04-quick-start-guide.html)** — Daily routine, project ideas, and success metrics
+- **[03-learning-path](./03-learning-path.html)** — Detailed week-by-week curriculum with objectives and deliverables

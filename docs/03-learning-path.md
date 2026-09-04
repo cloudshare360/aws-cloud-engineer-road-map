@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Detailed Learning Path
 
 ## Overview

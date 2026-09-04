@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Quick Start Guide
 
 ## Welcome to the AWS Cloud Engineer Learning Journey
@@ -226,6 +230,6 @@ This guide will help you get started on your path to becoming an AWS Cloud Engin
 
 ## Continue To
 
-- **[03-learning-path.md](./03-learning-path.md)** — Detailed week-by-week curriculum with objectives and deliverables
-- **[02-roadmap.md](./02-roadmap.md)** — Review the 20-week learning roadmap
-- **[05-resources.md](./05-resources.md)** — Tools, learning resources, best practices, and interview prep
+- **[03-learning-path](./03-learning-path.html)** — Detailed week-by-week curriculum with objectives and deliverables
+- **[02-roadmap](./02-roadmap.html)** — Review the 20-week learning roadmap
+- **[05-resources](./05-resources.html)** — Tools, learning resources, best practices, and interview prep

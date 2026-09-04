@@ -28,17 +28,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate Pages artifact
-        run: test -f docs/index.html && test ! -f docs/Index.html
-
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
 
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: './docs'
+          destination: './_site'
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: './docs'
+          path: './_site'
 
   deploy:
     needs: build

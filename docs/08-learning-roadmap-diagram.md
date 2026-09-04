@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Learning Roadmap Diagrams
 
 This document contains visual diagrams for the 33-week learning roadmap. These diagrams render natively in GitHub, GitLab, and most Markdown viewers.
@@ -437,6 +441,6 @@ Use the [Mermaid Live Editor](https://mermaid.live) for interactive editing.
 
 ## Continue To
 
-- **[02-roadmap.md](./02-roadmap.md)** — 33-week structured learning roadmap
-- **[03-learning-path.md](./03-learning-path.md)** — Detailed week-by-week curriculum with objectives and deliverables
-- **[01-role-description.md](./01-role-description.md)** — Role responsibilities and success criteria
+- **[02-roadmap](./02-roadmap.html)** — 33-week structured learning roadmap
+- **[03-learning-path](./03-learning-path.html)** — Detailed week-by-week curriculum with objectives and deliverables
+- **[01-role-description](./01-role-description.html)** — Role responsibilities and success criteria

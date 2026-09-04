@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer - Committed Role Profile
 
 ## Executive Summary
@@ -337,6 +341,6 @@ We are an equal opportunity employer and value diversity. We do not discriminate
 
 ## Continue To
 
-- **[06-three-party-engagement.md](./06-three-party-engagement.md)** — Engagement model, SLA, responsibilities, and shared compensation
-- **[01-role-description.md](./01-role-description.md)** — Review role responsibilities and success criteria
-- **[02-roadmap.md](./02-roadmap.md)** — See the 20-week learning roadmap and skill progression
+- **[06-three-party-engagement](./06-three-party-engagement.html)** — Engagement model, SLA, responsibilities, and shared compensation
+- **[01-role-description](./01-role-description.html)** — Review role responsibilities and success criteria
+- **[02-roadmap](./02-roadmap.html)** — See the 20-week learning roadmap and skill progression

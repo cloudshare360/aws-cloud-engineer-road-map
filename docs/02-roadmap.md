@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # AWS Cloud Engineer Roadmap
 
 ## Parallel Learning Tracks
@@ -502,5 +506,5 @@ Plan tomorrow's tasks in Sprint Backlog
 
 ## Continue To
 
-- **[03-learning-path.md](./03-learning-path.md)** — Detailed week-by-week curriculum with parallel track objectives
-- **[01-role-description.md](./01-role-description.md)** — Review role responsibilities and success criteria
+- **[03-learning-path](./03-learning-path.html)** — Detailed week-by-week curriculum with parallel track objectives
+- **[01-role-description](./01-role-description.html)** — Review role responsibilities and success criteria
