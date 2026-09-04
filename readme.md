@@ -96,7 +96,10 @@ The associate is embedded in the employer's team as a full member, with technica
 ```
 .
 ├── readme.md                         # Root index (this file)
-├── docs/                             # GitHub Pages (01-08*.md + index.html + README.md)
+├── docs/                             # GitHub Pages source and self-contained site assets
+│   ├── assets/                       # Downloadable site assets
+│   ├── 01-10*.md                    # Rendered roadmap and deployment pages
+│   └── index.html                    # GitHub Pages entry point
 ├── .kilo/                            # Agent config (skills, memory, tasks, agent, data, meta)
 ├── .devcontainer/                     # Codespaces config
 ├── .github/workflows/pages.yml       # Pages deployment
@@ -232,7 +235,7 @@ The associate is embedded in the employer's team as a full member, with technica
 | 08 | [Roadmap Diagrams](./docs/08-learning-roadmap-diagram.md) | Visual Mermaid diagrams for the 33-week roadmap | After 02 |
 | 09 | [Excel Roadmap Viewer](./docs/09-excel-viewer.html) | Interactive browser-based viewer for CloudEngineer-RoadMap.xlsx | After 08 |
 | 10 | [AWS Serverless Developer](https://github.com/cloudshare360/aws-cloud-engineer-road-map/tree/main/aws-serverless-developer) | 16-week specialized serverless track | Optional specialization |
-| 11 | [GitHub Pages Deployment](./github-pages-deployment/README.md) | Deployment steps, artifact checks, and 404 troubleshooting | Repository maintainers |
+| 11 | [GitHub Pages Deployment](./docs/10-github-pages-deployment.md) | Deployment steps, artifact checks, and 404 troubleshooting | Repository maintainers |
 
 ### Recommended Reading Paths
 
