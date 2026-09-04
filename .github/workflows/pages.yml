@@ -7,6 +7,7 @@ on:
       - 'docs/**'
       - 'readme.md'
       - 'AGENTS.md'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
 
 permissions:
