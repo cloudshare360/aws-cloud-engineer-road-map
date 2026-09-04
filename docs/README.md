@@ -14,6 +14,7 @@ This folder contains all documentation for the AWS Cloud Engineer committed role
 - [08-learning-roadmap-diagram.md](./08-learning-roadmap-diagram.md) — Visual Mermaid diagrams for the 33-week roadmap
 - [08-learning-roadmap-diagrams.html](./08-learning-roadmap-diagrams.html) — Interactive HTML with embedded Mermaid.js
 - [09-excel-viewer.html](./09-excel-viewer.html) — View CloudEngineer-RoadMap.xlsx in browser using SheetJS
+- [GitHub Pages Deployment](../github-pages-deployment/README.md) — Deployment configuration, verification, and 404 troubleshooting
 - [aws-serverless-developer](https://github.com/cloudshare360/aws-cloud-engineer-road-map/tree/main/aws-serverless-developer) — 16-week AWS Serverless Developer specialized roadmap
 
 ---
@@ -30,6 +31,7 @@ readme.md (Root Index)
     ├── docs/06-three-party-engagement.md
     ├── docs/07-staff-augmentation-proposal.md
     ├── docs/08-learning-roadmap-diagram.md
+    ├── github-pages-deployment/README.md
     └── aws-serverless-developer/ (specialized track)
 ```
 
@@ -43,6 +45,7 @@ readme.md (Root Index)
 - **For vendors**: Reference [07-staff-augmentation-proposal.md](./07-staff-augmentation-proposal.md) and [06-three-party-engagement.md](./06-three-party-engagement.md)
 - **For visual learners**: See [08-learning-roadmap-diagram.md](./08-learning-roadmap-diagram.md) for Mermaid diagrams
 - **For serverless focus**: See [aws-serverless-developer](https://github.com/cloudshare360/aws-cloud-engineer-road-map/tree/main/aws-serverless-developer) for 16-week specialized track
+- **For deployment troubleshooting**: See [GitHub Pages Deployment](../github-pages-deployment/README.md)
 
 ---
 

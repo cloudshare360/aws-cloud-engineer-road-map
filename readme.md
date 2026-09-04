@@ -232,6 +232,7 @@ The associate is embedded in the employer's team as a full member, with technica
 | 08 | [Roadmap Diagrams](./docs/08-learning-roadmap-diagram.md) | Visual Mermaid diagrams for the 33-week roadmap | After 02 |
 | 09 | [Excel Roadmap Viewer](./docs/09-excel-viewer.html) | Interactive browser-based viewer for CloudEngineer-RoadMap.xlsx | After 08 |
 | 10 | [AWS Serverless Developer](https://github.com/cloudshare360/aws-cloud-engineer-road-map/tree/main/aws-serverless-developer) | 16-week specialized serverless track | Optional specialization |
+| 11 | [GitHub Pages Deployment](./github-pages-deployment/README.md) | Deployment steps, artifact checks, and 404 troubleshooting | Repository maintainers |
 
 ### Recommended Reading Paths
 
