@@ -99,7 +99,7 @@ flowchart TD
     subgraph Phase4[Phase 4: Advanced Serverless<br/>Weeks 9-12]
         direction TB
         D1[AppSync<br/>GraphQL APIs, Resolvers, Data Sources]
-        D2[Lambda@Edge<br/>CloudFront Functions, Viewer/Origin]
+        D2[Lambda Edge<br/>CloudFront Functions, Viewer/Origin]
         D3[S3 Select & Glacier<br/>Query Objects, Archive Storage]
         D4[Amplify<br/>Fullstack Serverless, Hosting, Auth]
         D5[Serverless Frameworks<br/>SAM vs CDK vs Serverless Framework]
@@ -146,7 +146,7 @@ mindmap
         Compute
             AWS Lambda
             Lambda Layers
-            Lambda@Edge
+            Lambda Edge
             Lambda Destinations
         API & Integration
             Amazon API Gateway
@@ -205,7 +205,7 @@ flowchart LR
         CF[CloudFront]
         APIGW[API Gateway]
         AppSync[AppSync]
-        LambdaEdge[Lambda@Edge]
+        LambdaEdge[Lambda Edge]
     end
     
     subgraph Compute[Compute Layer]
@@ -291,7 +291,7 @@ timeline
         Integration : SNS Topics<br/>SQS Queues<br/>SES Email<br/>EventBridge<br/>Step Functions
     
     section Weeks 9-12
-        Advanced : AppSync GraphQL<br/>Lambda@Edge<br/>Amplify<br/>Frameworks
+        Advanced : AppSync GraphQL<br/>Lambda Edge<br/>Amplify<br/>Frameworks
     
     section Weeks 13-14
         IaC & CI/CD : AWS SAM<br/>AWS CDK<br/>Serverless Framework<br/>Pipelines
@@ -311,7 +311,7 @@ graph TB
         subgraph Compute[Serverless Compute]
             Lambda[AWS Lambda]
             Layers[Lambda Layers]
-            Edge[Lambda@Edge]
+            Edge[Lambda Edge]
             Dest[Lambda Destinations]
         end
         
