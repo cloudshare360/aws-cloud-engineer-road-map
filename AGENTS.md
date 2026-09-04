@@ -1,58 +1,45 @@
 # AGENTS.md
 
-AWS Cloud Engineer Committed Role Program — 20-week training placing a mid-level AWS Cloud Engineer (6 YOE) with technical expert support layer.
+AWS Cloud Engineer committed-role program repo. Primary artifact is documentation; there is no app runtime, test suite, or build step beyond GitHub Pages deployment.
 
-## Repository Structure
+## What This Repo Is Now
 
-```
-.
-├── readme.md                    # Root index
-├── docs/                        # GitHub Pages (01-07*.md + index.html + README.md)
-├── .kilo/                       # Agent config
-├── .devcontainer/devcontainer.json
-├── .github/workflows/pages.yml
-├── aws-cloud-engineer/          # Role root
-│   ├── node-js/                 # Node.js learning path
-│   ├── angular/                 # Frontend resources
-│   ├── react/                   # Frontend resources
-│   ├── dev-ops/                 # DevOps learning materials
-│   │   ├── ci-cd/               # GitLab, GitHub Actions, Jenkins
-│   │   └── iac/                 # CloudFormation, CDK, Terraform, OpenTofu
-│   └── aws-services/            # 82 AWS services organized by domain
-│       ├── analytics/             # athena, datapipeline, emr, glue, kinesis, opensearch, timestream, etc.
-│       ├── application-integration/  # api-gateway, appsync, sns, sqs, ses, stepfunction, etc.
-│       ├── compute/               # ec2, lambda
-│       ├── containers/            # ecr, ecs, eks, appmesh
-│       ├── database/              # dynamodb, rds, documentdb, neptune, elasticache, etc.
-│       ├── developer-tools/       # cloud9, cloudformation, codebuild, codecommit, etc.
-│       ├── iot/                   # iot-core, iot-analytics, iot-device-defender
-│       ├── machine-learning/      # sagemaker, bedrock, rekognition, polly, etc.
-│       ├── management-governance/ # cloudwatch, config, systems-manager, trustedadvisor
-│       ├── migration-transfer/    # dms, migration-hub, transfer-family, etc.
-│       ├── networking-content-delivery/  # cloudfront, route53, vpc, elb, etc.
-│       ├── security-identity-compliance/  # iam, cognito, guardduty, kms, etc.
-│       ├── serverless-application-repository/
-│       └── storage/               # s3
-```
+- 33-week learning roadmap for a fresher with no programming background.
+- Four parallel tracks from Week 1: Fullstack, Git/IDE/CI-CD, Agile/Architecture, AWS Cloud.
+- `docs/` is the GitHub Pages source. `docs/index.html` is the entry point.
+- `aws-serverless-developer/` is a standalone 16-week specialized track with its own README and Mermaid diagrams.
+- `roadmap-files/CloudEngineer-RoadMap-EntryToMidLevel.md` is the long-form single-file roadmap.
 
 ## Conventions
 
-- Markdown: ATX headings, ≤120 chars, relative paths
-- Docs: `NN-name.md` format, case-sensitive
-- Commits: Conventional (`feat:`, `fix:`, `docs:`, `chore:`)
-- Pages: `/docs` folder, `index.html` entry, `.nojekyll`
+- Markdown: ATX headings, ≤120 chars, relative paths.
+- Docs: `NN-name.md` numbering in `docs/` is sequential; case-sensitive.
+- Commits: Conventional (`feat:`, `fix:`, `docs:`, `chore:`).
+- Mermaid: use `Lambda Edge` instead of `Lambda@Edge`; GitHub’s renderer rejects `@` in node IDs.
+- `.nojekyll` must exist in `docs/`; Pages deploy uses the `./docs` artifact path.
 
-## Agent System
+## GitHub Pages
 
-- Skills: `.kilo/skills/`
+- Workflow: `.github/workflows/pages.yml`
+- Trigger: push to `main` touching `docs/**`, `readme.md`, or `AGENTS.md`.
+- Live site: https://cloudshare360.github.io/aws-cloud-engineer-road-map/
+- If Pages content is stale, check workflow run permissions and artifact path `./docs`.
+
+## Kilo Config
+
+- `.kilo/kilo.json`: mode `code`, model `kilo/kilo-auto/free`, skills/memory/tasks enabled.
+- Skills: `.kilo/skills/aws-cloud-engineer-roadmap/SKILL.md`, `.kilo/skills/nodejs-development/SKILL.md`
 - Memory: `.kilo/memory/`
 - Tasks: `.kilo/tasks/`
 
-## Environment
+## Editing Rules
 
-```bash
-KILO_MODE=code
-KILO_MODEL=kilo/kilo-auto/free
-```
+- Do not rename or remove `docs/index.html` or `docs/.nojekyll`.
+- When adding a doc, update `docs/README.md`, `readme.md`, and add a “Continue To” section.
+- When changing roadmap structure, keep `roadmap-files/CloudEngineer-RoadMap.md` untouched; use `CloudEngineer-RoadMap-EntryToMidLevel.md` for the current curriculum.
+- `aws-serverless-developer/` content is independent; do not merge its diagrams into `docs/` unless asked.
 
-Devcontainer: Node.js LTS, Python, Java, AWS CLI, Kilo CLI
+## Validation
+
+- No automated tests or linters are configured.
+- Before pushing, verify: relative links resolve, headings ≤120 chars, Mermaid syntax avoids `@` in IDs, and `docs/.nojekyll` exists.
