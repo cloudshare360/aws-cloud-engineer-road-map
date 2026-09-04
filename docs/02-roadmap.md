@@ -1,69 +1,48 @@
 # AWS Cloud Engineer Roadmap
 
-## Phase 1: Backend Development Foundations (Weeks 1-4)
-- JavaScript fundamentals
-- TypeScript fundamentals
-- Node.js fundamentals
-- Express.js fundamentals
+## Phase 1: MEAN Stack (Weeks 1-4)
+- MongoDB
+- Express.js
+- Angular
+- Node.js
 - REST API concepts
-- Python fundamentals
 
-## Phase 2: Testing Fundamentals (Weeks 5-6)
+## Phase 2: MERN Stack (Weeks 5-8)
+- MongoDB
+- Express.js
+- React.js
+- Node.js
+- REST API concepts
+
+## Phase 3: Python Fundamentals (Weeks 9-10)
+- Python fundamentals
+- Flask
+- FastAPI
+- Scripting for automation
+
+## Phase 4: Java Fundamentals (Weeks 11-12)
+- Java fundamentals
+- Spring Boot basics
+
+## Phase 5: .NET / C# Fundamentals (Weeks 13-14)
+- C# fundamentals
+- ASP.NET basics
+
+## Phase 6: Testing Fundamentals (Weeks 15-17)
 - Jest
 - Chai
 - Mocha
 - Sinon
+- Cucumber
+- Playwright
 
-## Phase 2b: Portfolio Marketing (Weeks 5-8, ongoing)
-- Backend Node.js marketing & portfolio development
+## Phase 7: Frontend Development (Weeks 18-21)
 
-## Phase 3: Frontend Technologies (Weeks 7-8)
-- Angular
-- Karma
-- ReactJS
-
-## Phase 4: Hands-on AWS Services (Weeks 9-12)
-- AWS Lambda
-- Amazon API Gateway
-- Amazon DynamoDB
-- Amazon SNS
-- Amazon SQS
-- Amazon SES
-- AWS Step Functions
-- Amazon S3
-- Amazon RDS PostgreSQL
-- Amazon OpenSearch
-- AWS Athena
-- AWS AppSync (GraphQL)
-- Amazon EC2
-- Docker
-- Amazon ECS
-- Amazon EKS
-- AWS IAM
-- AWS Secrets Manager
-- Amazon CloudWatch
-- AWS X-Ray
-
-## Phase 5: Infrastructure as Code (IaC) (Weeks 13-14)
-- AWS CDK
-- CloudFormation
-- Terraform
-- OpenTofu
-
-## Phase 6: CI/CD & DevOps (Weeks 15-16)
-- GitLab
-- GitHub
-- Jenkins
-
-## Phase 7: Angular Development (Weeks 17-20)
-
-### Angular Core
+### Angular
 - Angular CLI & Project Structure
 - Components & Templates
 - Data Binding & Directives
 - Pipes & Custom Pipes
-
-### Angular Advanced
 - Services & Dependency Injection
 - RxJS & Reactive Programming
 - Reactive Forms & Validation
@@ -74,7 +53,7 @@
 - Angular Testing (Jasmine, Karma)
 - Build Optimization & Deployment
 
-## Phase 7b: React/Next.js Development (Client-driven)
+### React / Next.js
 - React fundamentals
 - Next.js framework
 - Components & Props
@@ -82,10 +61,61 @@
 - API Routes & SSR
 - Deployment & Optimization
 
+### Vue.js
+- Vue.js 3 Composition API
+- Vue CLI and project structure
+- Components, props, and emits
+- Reactive data with ref and reactive
+- Vue Router for navigation
+- State management with Pinia
+- Axios for API integration
+
+## Phase 8: AWS Fundamentals & Serverless (Weeks 22-25)
+- AWS Lambda
+- Amazon API Gateway
+- Amazon DynamoDB
+- Amazon S3
+- Amazon RDS
+- Amazon SNS
+- Amazon SQS
+- Amazon SES
+- AWS Step Functions
+- AWS AppSync (GraphQL)
+
+## Phase 9: AWS Advanced Services (Weeks 26-29)
+- Amazon EC2
+- Docker
+- Amazon App Runner
+- Amazon ECS
+- Amazon EKS
+- AWS IAM
+- AWS Secrets Manager
+- Amazon CloudWatch
+- AWS X-Ray
+- Amazon OpenSearch
+- AWS Athena
+
+## Phase 10: Infrastructure as Code (IaC) (Weeks 30-31)
+- CloudFormation
+- AWS CDK
+- Terraform
+- OpenTofu
+
+## Phase 11: CI/CD & DevOps (Weeks 32-33)
+- GitLab
+- Jenkins
+- GitHub
+
 ## Core AWS Knowledge
 - AWS architecture-level understanding
 - AWS developer-level understanding
 - Latest agentic development practices on AWS
+
+## Multi-Cloud Expansion (Post-AWS Mastery)
+- Azure fundamentals and core services
+- Google Cloud Platform (GCP) fundamentals
+- Multi-cloud architecture patterns
+- Cloud-agnostic IaC and deployment strategies
 
 ---
 

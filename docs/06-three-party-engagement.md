@@ -101,7 +101,7 @@ The Associate is a **mid-level AWS Cloud Engineer with 6 years of professional e
 ##### AWS Cloud Engineering
 - Serverless architectures (Lambda, API Gateway, Step Functions)
 - Infrastructure as Code (AWS CDK, CloudFormation, Terraform)
-- Containerization (Docker, ECS, EKS)
+- Containerization (Docker, ECS, EKS, App Runner)
 - Data services (DynamoDB, RDS, S3, OpenSearch, Athena)
 - Integration services (SNS, SQS, SES, AppSync)
 - Security & Identity (IAM, Secrets Manager)

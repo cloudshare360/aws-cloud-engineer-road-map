@@ -8,7 +8,7 @@ An AWS Cloud Engineer is responsible for designing, building, deploying, and mai
 - Build serverless applications using AWS Lambda, API Gateway, and DynamoDB
 - Implement infrastructure as code using AWS CDK, CloudFormation, and Terraform
 - Set up CI/CD pipelines using GitLab, GitHub, and Jenkins
-- Containerize applications using Docker and orchestrate with ECS/EKS
+- Containerize applications using Docker and orchestrate with ECS/EKS/App Runner
 - Monitor and optimize cloud resources using CloudWatch and X-Ray
 - Ensure security and compliance using IAM, Secrets Manager, and AWS best practices
 - Collaborate with frontend teams to integrate Angular/React applications
@@ -31,6 +31,7 @@ An AWS Cloud Engineer is responsible for designing, building, deploying, and mai
 ### Cloud & Infrastructure
 - AWS Services (Lambda, API Gateway, DynamoDB, S3, SNS, SQS, SES, etc.)
 - Docker
+- AWS App Runner
 - AWS ECS / EKS
 - AWS CDK / CloudFormation
 - Terraform

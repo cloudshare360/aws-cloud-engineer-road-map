@@ -39,8 +39,8 @@ An **AWS Cloud Engineer** designs, builds, deploys, and maintains scalable, secu
 |--------|-------------|
 | **Languages** | JavaScript/TypeScript, Python, Node.js |
 | **Backend** | Express.js, AWS Lambda |
-| **Frontend** | Angular, React/Next.js |
-| **Cloud** | Lambda, API Gateway, DynamoDB, S3, SNS, SQS, SES, Step Functions, RDS, OpenSearch, Athena, AppSync, EC2, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray |
+| **Frontend** | Angular, React/Next.js, Vue.js |
+| **Cloud** | Lambda, API Gateway, DynamoDB, S3, SNS, SQS, SES, Step Functions, RDS, OpenSearch, Athena, AppSync, EC2, App Runner, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray |
 | **IaC** | AWS CDK, CloudFormation, Terraform, OpenTofu |
 | **DevOps/CI/CD** | GitLab, GitHub Actions, Jenkins |
 | **Testing** | Jest, Chai, Mocha, Sinon |
@@ -59,18 +59,21 @@ An **AWS Cloud Engineer** designs, builds, deploys, and maintains scalable, secu
 
 ## Training & Ramp-Up
 
-The associate follows a structured **20-week learning roadmap**:
+The associate follows a structured **33-week learning roadmap**:
 
 | Weeks | Focus Area | Key Technologies |
 |-------|-----------|-----------------|
-| 1-4 | Backend Development Foundations | JavaScript, TypeScript, Node.js, Express.js, REST APIs, Python |
-| 5-6 | Testing Fundamentals | Jest, Chai, Mocha, Sinon |
-| 5-8 | Portfolio Marketing (ongoing) | GitHub, LinkedIn, open source, personal branding |
-| 7-8 | Frontend Technologies | Angular, Karma, ReactJS |
-| 9-12 | AWS Services | Lambda, API Gateway, DynamoDB, SNS, SQS, SES, Step Functions, S3, RDS, OpenSearch, Athena, AppSync, EC2, Docker, ECS, EKS, IAM, Secrets Manager, CloudWatch, X-Ray |
-| 13-14 | Infrastructure as Code | AWS CDK, CloudFormation, Terraform, OpenTofu |
-| 15-16 | CI/CD & DevOps | GitLab, GitHub, Jenkins |
-| 17-20 | Angular or React/Next.js | Angular Core + Advanced or React/Next.js (client-driven) |
+| 1-4 | MEAN Stack | MongoDB, Express.js, Angular, Node.js |
+| 5-8 | MERN Stack | MongoDB, Express.js, React.js, Node.js |
+| 9-10 | Python Fundamentals | Python, Flask, FastAPI |
+| 11-12 | Java Fundamentals | Java, Spring Boot |
+| 13-14 | .NET / C# Fundamentals | C#, ASP.NET |
+| 15-17 | Testing Fundamentals | Jest, Chai, Mocha, Sinon, Cucumber, Playwright |
+| 18-21 | Frontend Development | Angular, React/Next.js, Vue.js |
+| 22-25 | AWS Fundamentals & Serverless | Lambda, API Gateway, DynamoDB, S3, RDS, SNS, SQS, SES, Step Functions, AppSync |
+| 26-29 | AWS Advanced Services | EC2, Docker, App Runner, ECS, EKS, IAM, CloudWatch, X-Ray, OpenSearch, Athena |
+| 30-31 | Infrastructure as Code | CloudFormation, AWS CDK, Terraform, OpenTofu |
+| 32-33 | CI/CD & DevOps | GitLab, Jenkins, GitHub |
 
 ---
 
@@ -231,8 +234,8 @@ The associate is embedded in the employer's team as a full member, with technica
 | **Experience Level** | Mid-level developer with 6 years of professional experience |
 | **Engagement Type** | Committed, full-time role with long-term growth path |
 | **Support Model** | Technical expert layer for architectural guidance, code reviews, and gap remediation |
-| **Training** | Structured 20-week learning roadmap with weekly milestones |
-| **Delivery** | Backend-first, then AWS services, then frontend based on client needs |
+| **Training** | Structured 33-week learning roadmap with weekly milestones |
+| **Delivery** | MEAN/MERN first, then Python/Java/.NET, then AWS cloud, then multi-cloud expansion |
 | **Tools** | Node.js, Express.js, Python, Angular/React, AWS CDK, Terraform, OpenTofu, GitLab/GitHub/Jenkins |
 
 ---

@@ -41,7 +41,7 @@ A **Technical Expert Support Structure** is in place to provide guidance, conduc
    - Design and deploy serverless architectures using AWS Lambda, API Gateway, and Step Functions
    - Manage data services (DynamoDB, RDS PostgreSQL, S3, OpenSearch, Athena)
    - Implement integration patterns using SNS, SQS, SES, and AppSync
-   - Containerize applications with Docker and orchestrate using ECS/EKS
+    - Containerize applications with Docker and orchestrate using ECS/EKS/App Runner
    - Monitor applications using CloudWatch and X-Ray
 
 3. **Infrastructure as Code**
@@ -98,7 +98,7 @@ A **Technical Expert Support Structure** is in place to provide guidance, conduc
 - **React / Next.js** — Intermediate (2 years)
 
 ### Cloud & Infrastructure
-- **AWS Services** (Lambda, API Gateway, DynamoDB, S3, SNS, SQS, SES, Step Functions, RDS, OpenSearch, Athena, AppSync, EC2, ECS, EKS) — Advanced
+- **AWS Services** (Lambda, API Gateway, DynamoDB, S3, SNS, SQS, SES, Step Functions, RDS, OpenSearch, Athena, AppSync, EC2, App Runner, ECS, EKS) — Advanced
 - **Docker** — Intermediate
 - **AWS CDK / CloudFormation** — Advanced
 - **Terraform** — Intermediate
