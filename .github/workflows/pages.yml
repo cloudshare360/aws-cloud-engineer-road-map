@@ -8,6 +8,8 @@ on:
       - 'readme.md'
       - 'AGENTS.md'
       - '.github/workflows/pages.yml'
+      - 'index.html'
+      - '404.html'
   workflow_dispatch:
 
 permissions:
