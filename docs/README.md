@@ -51,6 +51,6 @@ readme.md (Root Index)
 This site is automatically deployed to GitHub Pages via [.github/workflows/pages.yml](https://github.com/cloudshare360/aws-cloud-engineer-road-map/blob/main/.github/workflows/pages.yml).
 
 - **Live site**: https://cloudshare360.github.io/aws-cloud-engineer-road-map/
-- **Source**: `docs/` folder
+- **Source**: GitHub Actions workflow publishing the `docs/` folder
 - **Entry point**: `docs/index.html`
 - **Jekyll disabled**: `.nojekyll` file present
